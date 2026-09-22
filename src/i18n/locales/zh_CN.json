@@ -273,6 +273,17 @@
                     "prompt_description": "通过自定义Prompt自定义AI行为, $text $from $to $detect 将会被替换为 待翻译文本，源语言，目标语言和检测到的语言。",
                     "add": "添加 Prompt"
                 },
+                "deepseek": {
+                    "title": "DeepSeek",
+                    "model": "模型",
+                    "deepseek_chat": "DeepSeek Chat (V3)",
+                    "deepseek_reasoner": "DeepSeek Reasoner (R1)",
+                    "api_key": "Api Key",
+                    "request_path": "请求地址",
+                    "stream": "流式输出",
+                    "prompt_description": "通过自定义Prompt自定义AI行为, $text $from $to $detect 将会被替换为 待翻译文本，源语言，目标语言和检测到的语言。",
+                    "add": "添加 Prompt"
+                },
                 "ecdict": {
                     "title": "ECDict(在线)"
                 },

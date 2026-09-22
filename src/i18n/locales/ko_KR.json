@@ -8,7 +8,11 @@
             "plugin": "플러그인"
         },
         "services": {
-            "translate": {}
+            "translate": {
+                "deepseek": {
+                    "title": "DeepSeek"
+                }
+            }
         }
     }
 }

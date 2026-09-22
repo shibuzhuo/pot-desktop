@@ -257,6 +257,9 @@
                     "prompt_description": "Указав Промт, вы можете настроить поведение ИИ. $text $from $to $detect будет заменён текстом для перевода, исходным языком, целевым языком и определённым языком.",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "geminipro": {
                     "add": "Добавить Промт",
                     "api_key": "Api Key",

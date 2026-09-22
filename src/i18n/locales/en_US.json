@@ -273,6 +273,17 @@
                     "prompt_description": "By customizing the Prompt, you can customize the behavior of AI. $text $from $to $detect will be replaced with the text to be translated, source language, target language and detected language.",
                     "add": "Add Prompt"
                 },
+                "deepseek": {
+                    "title": "DeepSeek",
+                    "model": "Model",
+                    "deepseek_chat": "DeepSeek Chat (V3)",
+                    "deepseek_reasoner": "DeepSeek Reasoner (R1)",
+                    "api_key": "Api Key",
+                    "request_path": "Request Path",
+                    "stream": "Stream Mode",
+                    "prompt_description": "By customizing the Prompt, you can customize the behavior of AI. $text $from $to $detect will be replaced with the text to be translated, source language, target language and detected language.",
+                    "add": "Add Prompt"
+                },
                 "ecdict": {
                     "title": "ECDict(Online)"
                 },

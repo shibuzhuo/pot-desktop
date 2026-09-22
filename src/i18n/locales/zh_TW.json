@@ -250,6 +250,9 @@
                     "add": "新增 Prompt",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "bing_dict": {
                     "title": "必應詞典"
                 },

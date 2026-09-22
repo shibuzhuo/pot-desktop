@@ -37,6 +37,9 @@
                     "add": "Adicionar Prompt",
                     "prompt_description": "Ao personalizar o Prompt, pode personalizar o comportamento da IA. $text $from $to $detet será substituído pelo texto a ser traduzido, o idioma de origem, o idioma de destino e o idioma detetado."
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "cambridge_dict": {
                     "title": "Cambridge Dicionário"
                 },

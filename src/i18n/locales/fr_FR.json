@@ -28,6 +28,9 @@
                     "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "cambridge_dict": {
                     "title": "Dictionnaire Cambridge"
                 },

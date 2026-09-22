@@ -292,6 +292,9 @@
                     "chatglm_std": "ChatGLM قياسي",
                     "chatglm_lite": "ChatGLM خفيف"
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "ecdict": {
                     "title": "ECDict (متصل)"
                 }

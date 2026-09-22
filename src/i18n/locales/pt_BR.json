@@ -257,6 +257,9 @@
                     "prompt_description": "Ao personalizar o Prompt, você pode personalizar o comportamento da IA. $text $from $to $detect será substituído pelo texto a ser traduzido, o idioma de origem, o idioma de destino e o idioma detectado.",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "geminipro": {
                     "add": "Adicionar Prompt",
                     "api_key": "Chave Api",

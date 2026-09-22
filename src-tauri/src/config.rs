@@ -72,6 +72,7 @@ pub fn check_service_available() -> Result<(), Error> {
         "bing_dict",
         "cambridge_dict",
         "chatglm",
+        "deepseek",
         "ecdict",
         "geminipro",
         "ollama",

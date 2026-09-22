@@ -224,6 +224,9 @@
                     "chatglm_lite": "ChatGLM Lite",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+                "deepseek": {
+                    "title": "DeepSeek"
+                },
                 "bing_dict": {
                     "title": "Diccionario Bing"
                 },
