@@ -56,3 +56,7 @@ window-shadows = "0.2"
 # this feature is used for production builds or when `devPath` points to the filesystem
 # DO NOT REMOVE!!
 custom-protocol = ["tauri/custom-protocol"]
+
+# 本地维护的 selection crate:Windows 端剪贴板轮询优化(替代 crates.io 上的 1.2.0)
+[patch.crates-io]
+selection = { path = "selection" }
