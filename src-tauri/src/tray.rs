@@ -111,7 +111,6 @@ pub fn tray_event_handler<'a>(app: &'a AppHandle, event: SystemTrayEvent) {
             "ocr_translate" => on_ocr_translate_click(),
             "config" => on_config_click(),
             "check_update" => on_check_update_click(),
-            "view_log" => on_view_log_click(app),
             "restart" => on_restart_click(app),
             "quit" => on_quit_click(app),
             _ => {}
@@ -188,11 +187,6 @@ fn on_config_click() {
 fn on_check_update_click() {
     updater_window();
 }
-fn on_view_log_click(app: &AppHandle) {
-    use tauri::api::path::app_log_dir;
-    let log_path = app_log_dir(&app.config()).unwrap();
-    tauri::api::shell::open(&app.shell_scope(), log_path.to_str().unwrap(), None).unwrap();
-}
 fn on_restart_click(app: &AppHandle) {
     info!("============== Restart App ==============");
     app.restart();
@@ -214,7 +208,6 @@ fn tray_menu_en() -> tauri::SystemTrayMenu {
     let ocr_translate = CustomMenuItem::new("ocr_translate", "OCR Translate");
     let config = CustomMenuItem::new("config", "Config");
     let check_update = CustomMenuItem::new("check_update", "Check Update");
-    let view_log = CustomMenuItem::new("view_log", "View Log");
     let restart = CustomMenuItem::new("restart", "Restart");
     let quit = CustomMenuItem::new("quit", "Quit");
     SystemTrayMenu::new()
@@ -235,7 +228,6 @@ fn tray_menu_en() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -254,7 +246,6 @@ fn tray_menu_zh_cn() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "偏好设置");
     let check_update = CustomMenuItem::new("check_update", "检查更新");
     let restart = CustomMenuItem::new("restart", "重启应用");
-    let view_log = CustomMenuItem::new("view_log", "查看日志");
     let quit = CustomMenuItem::new("quit", "退出");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -274,7 +265,6 @@ fn tray_menu_zh_cn() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -293,7 +283,6 @@ fn tray_menu_zh_tw() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "偏好設定");
     let check_update = CustomMenuItem::new("check_update", "檢查更新");
     let restart = CustomMenuItem::new("restart", "重啓程式");
-    let view_log = CustomMenuItem::new("view_log", "查看日誌");
     let quit = CustomMenuItem::new("quit", "退出");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -313,7 +302,6 @@ fn tray_menu_zh_tw() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -332,7 +320,6 @@ fn tray_menu_ja() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "プリファレンス設定");
     let check_update = CustomMenuItem::new("check_update", "更新を確認する");
     let restart = CustomMenuItem::new("restart", "アプリの再起動");
-    let view_log = CustomMenuItem::new("view_log", "ログを見る");
     let quit = CustomMenuItem::new("quit", "退出する");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -352,7 +339,6 @@ fn tray_menu_ja() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -371,7 +357,6 @@ fn tray_menu_ko() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "기본 설정");
     let check_update = CustomMenuItem::new("check_update", "업데이트 확인");
     let restart = CustomMenuItem::new("restart", "응용 프로그램 다시 시작");
-    let view_log = CustomMenuItem::new("view_log", "로그 보기");
     let quit = CustomMenuItem::new("quit", "퇴출");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -391,7 +376,6 @@ fn tray_menu_ko() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -411,7 +395,6 @@ fn tray_menu_fr() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "Paramètres");
     let check_update = CustomMenuItem::new("check_update", "Vérifier les mises à jour");
     let restart = CustomMenuItem::new("restart", "Redémarrer l'application");
-    let view_log = CustomMenuItem::new("view_log", "Voir le journal");
     let quit = CustomMenuItem::new("quit", "Quitter");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -431,7 +414,6 @@ fn tray_menu_fr() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -449,7 +431,6 @@ fn tray_menu_de() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "Einstellungen");
     let check_update = CustomMenuItem::new("check_update", "Auf Updates prüfen");
     let restart = CustomMenuItem::new("restart", "Anwendung neu starten");
-    let view_log = CustomMenuItem::new("view_log", "Protokoll anzeigen");
     let quit = CustomMenuItem::new("quit", "Beenden");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -469,7 +450,6 @@ fn tray_menu_de() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -488,7 +468,6 @@ fn tray_menu_ru() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "Настройки");
     let check_update = CustomMenuItem::new("check_update", "Проверить обновления");
     let restart = CustomMenuItem::new("restart", "Перезапустить приложение");
-    let view_log = CustomMenuItem::new("view_log", "Просмотр журнала");
     let quit = CustomMenuItem::new("quit", "Выход");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -508,7 +487,6 @@ fn tray_menu_ru() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -527,7 +505,6 @@ fn tray_menu_fa() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "تنظیمات ترجیح");
     let check_update = CustomMenuItem::new("check_update", "بررسی بروزرسانی");
     let restart = CustomMenuItem::new("restart", "راه‌اندازی مجدد برنامه");
-    let view_log = CustomMenuItem::new("view_log", "مشاهده گزارشات");
     let quit = CustomMenuItem::new("quit", "خروج");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -547,7 +524,6 @@ fn tray_menu_fa() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -567,7 +543,6 @@ fn tray_menu_pt_br() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "Configurações");
     let check_update = CustomMenuItem::new("check_update", "Checar por Atualização");
     let restart = CustomMenuItem::new("restart", "Reiniciar aplicativo");
-    let view_log = CustomMenuItem::new("view_log", "Exibir Registro");
     let quit = CustomMenuItem::new("quit", "Sair");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -587,7 +562,6 @@ fn tray_menu_pt_br() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)
@@ -606,7 +580,6 @@ fn tray_menu_uk() -> tauri::SystemTrayMenu {
     let config = CustomMenuItem::new("config", "Настройка");
     let check_update = CustomMenuItem::new("check_update", "Перевірити оновлення");
     let restart = CustomMenuItem::new("restart", "Перезапустити додаток");
-    let view_log = CustomMenuItem::new("view_log", "Перегляд журналу");
     let quit = CustomMenuItem::new("quit", "Вихід");
     SystemTrayMenu::new()
         .add_item(input_translate)
@@ -626,7 +599,6 @@ fn tray_menu_uk() -> tauri::SystemTrayMenu {
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(config)
         .add_item(check_update)
-        .add_item(view_log)
         .add_native_item(SystemTrayMenuItem::Separator)
         .add_item(restart)
         .add_item(quit)

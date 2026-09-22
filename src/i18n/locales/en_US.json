@@ -101,7 +101,6 @@
                 "target": "Target",
                 "source_target": "Source+Target",
                 "disable": "Disable",
-                "history_disable": "Disable History",
                 "incremental_translate": "Incremental Translation",
                 "dynamic_translate": "Dynamic Translation",
                 "delete_newline": "Delete Newline",
@@ -152,7 +151,6 @@
                 "label": "Service",
                 "title": "Service Settings",
                 "translate": "Translate",
-                "tts": "TTS",
                 "recognize": "Recognize",
                 "collection": "Collection",
                 "least": "Please keep at least one",
@@ -165,30 +163,6 @@
                 "uninstall_success": "Plugin Uninstall Successfully",
                 "homepage": "Homepage"
             },
-            "history": {
-                "label": "History",
-                "title": "History"
-            },
-            "backup": {
-                "label": "Backup",
-                "title": "Backup Settings",
-                "type": "Service Type",
-                "webdav": "WebDav",
-                "aliyun": "Aliyun Drive",
-                "local": "Local",
-                "webdav_url": "WebDav URL",
-                "username": "Username",
-                "password": "Password",
-                "logout": "Logout",
-                "aliyun_login_first": "Please scan the code to log in first.",
-                "login_success": "Login Success",
-                "backup": "Backup",
-                "restore": "Restore",
-                "list": "Backup List",
-                "load_success": "Load Backup Success",
-                "backup_success": "Backup Success",
-                "empty": "You have not backed up yet"
-            },
             "about": {
                 "label": "About",
                 "title": "About Application",
@@ -199,7 +173,6 @@
                 "email": "Email",
                 "community": "Community",
                 "check_update": "Check Update",
-                "view_log": "View Log",
                 "view_config": "View Config",
                 "qq_channel": "QQ Channel",
                 "qq_group": "QQ Group",
@@ -257,12 +230,6 @@
                     "prompt_description": "By customizing the Prompt, you can customize the behavior of Gemini Pro. $text $from $to $detect will be replaced with the text to be translated, source language, target language and detected language.",
                     "add": "Add Prompt"
                 },
-                "ecdict": {
-                    "title": "ECDict(Online)"
-                },
-                "bing_dict": {
-                    "title": "Bing Dictionary"
-                },
                 "cambridge_dict": {
                     "title": "Cambridge Dictionary"
                 }
@@ -271,12 +238,6 @@
                 "oneocr": {
                     "title": "OneOCR",
                     "tip": "Uses the OneOCR engine built into the Win11 Snipping Tool (offline). Requires oneocr.dll, oneocr.onemodel and onnxruntime.dll next to pot.exe, copied from the Snipping Tool install directory."
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "Request Path"
                 }
             },
             "collection": {
@@ -295,7 +256,6 @@
             "translate": "Translate",
             "add_collection_success": "Add to collection successfully",
             "recognizing": "Recognizing…",
-            "speak": "Speak",
             "copy": "Copy",
             "retry": "Try again",
             "delete_newline": "Delete Newline",

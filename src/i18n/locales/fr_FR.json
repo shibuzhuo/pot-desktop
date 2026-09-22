@@ -19,9 +19,6 @@
                 "cambridge_dict": {
                     "title": "Dictionnaire Cambridge"
                 },
-                "bing_dict": {
-                    "title": "Dictionnaire Bing"
-                },
                 "geminipro": {
                     "add": "Ajouter un prompt",
                     "api_key": "Clé API",
@@ -43,9 +40,6 @@
                     "model": "Modèle",
                     "install_model": "Installer",
                     "install_ollama": "Impossible de se connecter à ollama en local, veuillez d'abord télécharger, installer et démarrer ollama. Si vous utilisez une instance ollama qui n'est pas sur cette machine, veuillez changer l'adresse de demande."
-                },
-                "ecdict": {
-                    "title": "ECDict (en ligne)"
                 }
             },
             "recognize": {
@@ -62,12 +56,6 @@
                     "token": "Jeton",
                     "name": "Nom de la collection",
                     "title": "Eudic"
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "Chemin de la requête"
                 }
             }
         },
@@ -196,28 +184,7 @@
                     "16": "Normal (16px)",
                     "10": "Très très petit (10px)",
                     "18": "Grand (18px)"
-                },
-                "history_disable": "Désactiver l'historique"
-            },
-            "backup": {
-                "local": "Local",
-                "empty": "Vous n'avez encore rien sauvegardé",
-                "restore": "Restaurer",
-                "title": "Paramètres de sauvegarde",
-                "webdav": "WebDav",
-                "load_success": "La sauvegarde a bien été chargée",
-                "list": "Liste de sauvegardes",
-                "backup": "Sauvegarde",
-                "password": "Mot de passe",
-                "webdav_url": "URL WebDav",
-                "username": "Nom d'utilisateur",
-                "backup_success": "Sauvegarde réussie",
-                "label": "Sauvegarde",
-                "type": "Type de service",
-                "logout": "Déconnexion",
-                "aliyun_login_first": "Veuillez d'abord scanner le code pour vous connecter.",
-                "login_success": "Connexion réussie",
-                "aliyun": "Aliyun Drive"
+                }
             },
             "recognize": {
                 "delete_newline": "Suppression automatique des retours à la ligne",
@@ -243,7 +210,6 @@
                 "add_service": "Ajouter un service",
                 "uninstall_success": "L'extension a bien été désinstallée",
                 "least": "Veuillez en conserver au moins un",
-                "tts": "TTS",
                 "homepage": "Page d'accueil",
                 "translate": "Traduire",
                 "recognize": "Reconnaissance",
@@ -270,12 +236,7 @@
                 "email": "E-mail",
                 "github": "GitHub",
                 "discussion": "Discussion GitHub",
-                "qq_channel": "Canal QQ",
-                "view_log": "Voir les journaux"
-            },
-            "history": {
-                "label": "Historique",
-                "title": "Historique"
+                "qq_channel": "Canal QQ"
             }
         },
         "translate": {
@@ -285,8 +246,7 @@
             "recognizing": "Reconnaissance…",
             "translate_back": "Revenir à la traduction d'origine",
             "translate": "Traduire",
-            "copy": "Copier",
-            "speak": "Écouter"
+            "copy": "Copier"
         },
         "updater": {
             "installed": "Installation terminée. Relancez l'application pour que les modifications prennent effet",

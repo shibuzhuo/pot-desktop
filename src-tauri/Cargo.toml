@@ -20,7 +20,6 @@ tauri-plugin-autostart = { git = "https://github.com/tauri-apps/plugins-workspac
 tauri-plugin-fs-watch = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 tauri-plugin-store = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 tauri-plugin-log = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
-tauri-plugin-sql = { git= "https://github.com/tauri-apps/plugins-workspace", branch = "v1",features = ["sqlite"] }
 serde = { version = "1.0", features = ["derive"] }
 selection = "1.2.0"
 serde_json = "1.0"
@@ -33,8 +32,6 @@ screenshots = "=0.7.2"
 base64 = "0.22"
 arboard = "3.4"
 lingua = { version = "1.6.2", default-features = false, features = ["chinese", "japanese", "english", "korean", "french", "spanish", "german", "russian", "italian", "portuguese", "turkish", "arabic", "vietnamese", "thai", "indonesian", "malay", "hindi", "mongolian", "persian", "nynorsk", "bokmal", "ukrainian"] }
-reqwest = { version = "0.12", features = ["json"] }
-reqwest_dav = "=0.1.5"
 zip = "2.2.0"
 walkdir = "2.5"
 thiserror = "1.0"

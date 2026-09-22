@@ -24,8 +24,7 @@ export default function Translate(props) {
     const [currentConfigKey, setCurrentConfigKey] = useState('openai');
     // now it's service instance list
     const [translateServiceInstanceList, setTranslateServiceInstanceList] = useConfig('translate_service_list', [
-        'bing_dict',
-        'ecdict',
+        'openai',
     ]);
 
     const { t } = useTranslation();

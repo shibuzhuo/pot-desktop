@@ -101,7 +101,6 @@
                 "target": "Перевод",
                 "source_target": "Исходный+Перевод",
                 "disable": "Отключить",
-                "history_disable": "Отключить историю",
                 "incremental_translate": "Инкрементный перевод",
                 "dynamic_translate": "Динамический перевод",
                 "delete_newline": "Удаление новой строки",
@@ -152,7 +151,6 @@
                 "label": "Сервисы",
                 "title": "Настройки сервисов",
                 "translate": "Перевести",
-                "tts": "TTS",
                 "recognize": "Распознавание",
                 "collection": "Коллекция",
                 "least": "Пожалуйста, сохраните хотя бы один",
@@ -165,30 +163,6 @@
                 "homepage": "Домашняя страница",
                 "view_plugin_list": "Список плагинов"
             },
-            "history": {
-                "label": "История",
-                "title": "История"
-            },
-            "backup": {
-                "label": "Бэкап",
-                "title": "Настройки бэкапа",
-                "type": "Тип сервиса",
-                "webdav": "WebDav",
-                "local": "Локально",
-                "webdav_url": "WebDav ссылка",
-                "username": "Имя пользователя",
-                "password": "Пароль",
-                "backup": "Бэкап",
-                "restore": "Восстановить",
-                "list": "Список бэкапов",
-                "load_success": "Успешная загрузка бэкапа",
-                "backup_success": "Бэкап выполнен",
-                "empty": "Вы ещё не создали бэкап",
-                "aliyun": "Aliyun Drive",
-                "logout": "Выйти",
-                "login_success": "Вход выполнен",
-                "aliyun_login_first": "Для входа отсканируйте код."
-            },
             "about": {
                 "label": "О программе",
                 "title": "О программе",
@@ -199,7 +173,6 @@
                 "email": "Эл. почта",
                 "community": "Сообщество",
                 "check_update": "Обновление",
-                "view_log": "Журнал",
                 "view_config": "Конфигурация",
                 "qq_channel": "QQ канал",
                 "qq_group": "QQ группа",
@@ -233,9 +206,6 @@
                     "prompt_description": "Указав Промт, вы можете настроить поведение OpenAI. $text $from $to $detect будет заменён текстом для перевода, исходным языком, целевым языком и определённым языком.",
                     "add": "Добавить Промт"
                 },
-                "bing_dict": {
-                    "title": "Bing Dictionary"
-                },
                 "cambridge_dict": {
                     "title": "Кембриджский словарь"
                 },
@@ -260,20 +230,11 @@
                     "not_installed": "Эта модель ещё не установлена, нажмите, чтобы загрузить и установить",
                     "stream": "Потоковый режим",
                     "install_ollama_link": "Загрузить Ollama"
-                },
-                "ecdict": {
-                    "title": "ECDict (Online)"
                 }
             },
             "recognize": {
                 "oneocr": {
                     "title": "OneOCR"
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "Путь запроса"
                 }
             },
             "collection": {
@@ -292,7 +253,6 @@
             "translate": "Перевести",
             "add_collection_success": "Успешно добавлено в коллекцию",
             "recognizing": "Распознавание…",
-            "speak": "Озвучить",
             "copy": "Копировать",
             "retry": "Пробовать снова",
             "delete_newline": "Удалить новую строку",

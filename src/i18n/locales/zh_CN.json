@@ -101,7 +101,6 @@
                 "target": "译文",
                 "source_target": "原文+译文",
                 "disable": "禁用",
-                "history_disable": "禁用历史记录",
                 "incremental_translate": "增量翻译",
                 "dynamic_translate": "动态翻译",
                 "delete_newline": "自动删除换行",
@@ -152,7 +151,6 @@
                 "label": "服务设置",
                 "title": "服务设置",
                 "translate": "翻译",
-                "tts": "语音合成",
                 "recognize": "文字识别",
                 "collection": "生词本",
                 "least": "请至少保留一个",
@@ -165,30 +163,6 @@
                 "uninstall_success": "插件卸载成功",
                 "homepage": "插件主页"
             },
-            "history": {
-                "label": "历史记录",
-                "title": "历史记录"
-            },
-            "backup": {
-                "label": "备份设置",
-                "title": "备份设置",
-                "type": "服务类型",
-                "webdav": "WebDav",
-                "local": "本地",
-                "aliyun": "阿里云盘",
-                "webdav_url": "WebDav地址",
-                "username": "用户名",
-                "password": "密码",
-                "logout": "退出登录",
-                "aliyun_login_first": "请先扫码登录",
-                "login_success": "登录成功",
-                "backup": "备份",
-                "restore": "恢复备份",
-                "list": "备份列表",
-                "load_success": "载入备份成功",
-                "backup_success": "备份成功",
-                "empty": "您还没有备份"
-            },
             "about": {
                 "label": "关于应用",
                 "title": "关于应用",
@@ -199,7 +173,6 @@
                 "email": "邮件",
                 "community": "社区交流",
                 "check_update": "检查更新",
-                "view_log": "查看日志",
                 "view_config": "查看配置文件",
                 "qq_channel": "QQ 频道",
                 "qq_group": "QQ 群",
@@ -257,12 +230,6 @@
                     "prompt_description": "通过自定义Prompt自定义Gemini Pro的行为, $text $from $to $detect 将会被替换为 待翻译文本，源语言，目标语言和检测到的语言。",
                     "add": "添加 Prompt"
                 },
-                "ecdict": {
-                    "title": "ECDict(在线)"
-                },
-                "bing_dict": {
-                    "title": "必应词典"
-                },
                 "cambridge_dict": {
                     "title": "剑桥词典"
                 }
@@ -271,12 +238,6 @@
                 "oneocr": {
                     "title": "OneOCR",
                     "tip": "调用 Win11 截图工具内置的 OneOCR 引擎(离线)。需将 oneocr.dll、oneocr.onemodel、onnxruntime.dll 放在 pot.exe 同目录,来源见 Snipping Tool 安装目录。"
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "请求地址"
                 }
             },
             "collection": {
@@ -295,7 +256,6 @@
             "translate": "翻译",
             "add_collection_success": "添加成功",
             "recognizing": "识别中…",
-            "speak": "朗读",
             "copy": "复制",
             "retry": "重试",
             "delete_newline": "删除换行",

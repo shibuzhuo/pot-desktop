@@ -100,7 +100,6 @@
                 "target": "譯文",
                 "source_target": "原文+譯文",
                 "disable": "停用",
-                "history_disable": "停用歷史記錄",
                 "incremental_translate": "增量翻譯",
                 "dynamic_translate": "動態翻譯",
                 "delete_newline": "自動刪除換行",
@@ -151,7 +150,6 @@
                 "label": "服務設定",
                 "title": "服務設定",
                 "translate": "翻譯",
-                "tts": "語音合成",
                 "recognize": "文字辨識",
                 "collection": "收藏",
                 "least": "請至少保留一個",
@@ -164,30 +162,6 @@
                 "homepage": "外掛程式首頁",
                 "view_plugin_list": "檢視外掛程式列表"
             },
-            "history": {
-                "label": "歷史記錄",
-                "title": "歷史記錄"
-            },
-            "backup": {
-                "label": "備份設定",
-                "title": "備份設定",
-                "type": "服務類型",
-                "webdav": "WebDav",
-                "local": "本地",
-                "webdav_url": "WebDav 網址",
-                "username": "使用者名稱",
-                "password": "密碼",
-                "backup": "備份",
-                "restore": "還原",
-                "list": "備份列表",
-                "load_success": "載入備份成功",
-                "backup_success": "備份成功",
-                "empty": "您尚未進行備份",
-                "aliyun_login_first": "請先掃描 QR Code 登入。",
-                "login_success": "登入成功",
-                "aliyun": "阿里雲網盤",
-                "logout": "登出"
-            },
             "about": {
                 "label": "關於",
                 "title": "關於應用程式",
@@ -198,7 +172,6 @@
                 "email": "電子郵件",
                 "community": "社群交流",
                 "check_update": "檢查更新",
-                "view_log": "檢視記錄檔",
                 "view_config": "檢視設定",
                 "qq_channel": "QQ 頻道",
                 "qq_group": "QQ 群組",
@@ -232,9 +205,6 @@
                     "prompt_description": "透過自定義 Prompt，您可以自定義 OpenAI 的行為。$text $from $to $detect 將被替換為待翻譯的文字、來源語言、目標語言和偵測到的語言。",
                     "add": "新增 Prompt"
                 },
-                "bing_dict": {
-                    "title": "必應詞典"
-                },
                 "cambridge_dict": {
                     "title": "劍橋詞典"
                 },
@@ -266,12 +236,6 @@
                     "title": "OneOCR"
                 }
             },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "請求路徑"
-                }
-            },
             "collection": {
                 "anki": {
                     "title": "Anki",
@@ -288,7 +252,6 @@
             "translate": "翻譯",
             "add_collection_success": "成功加入收藏",
             "recognizing": "辨識中…",
-            "speak": "朗讀",
             "copy": "複製",
             "retry": "重試",
             "delete_newline": "刪除換行",

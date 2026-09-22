@@ -4,7 +4,6 @@ import React from 'react';
 
 import { createServiceInstanceKey } from '../../../../../../utils/service_instance';
 import * as builtinServices from '../../../../../../services/recognize';
-import { osType } from '../../../../../../utils/env';
 
 export default function SelectModal(props) {
     const { isOpen, onOpenChange, setCurrentConfigKey, onConfigOpen } = props;
@@ -32,11 +31,7 @@ export default function SelectModal(props) {
                                             }}
                                             startContent={
                                                 <img
-                                                    src={
-                                                        x === 'system'
-                                                            ? `logo/${osType}.svg`
-                                                            : builtinServices[x].info.icon
-                                                    }
+                                                    src={builtinServices[x].info.icon}
                                                     className='h-[24px] w-[24px] my-auto'
                                                 />
                                             }

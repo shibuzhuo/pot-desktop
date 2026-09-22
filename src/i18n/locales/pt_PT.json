@@ -28,9 +28,6 @@
                 "cambridge_dict": {
                     "title": "Cambridge Dicionário"
                 },
-                "bing_dict": {
-                    "title": "Bing Dicionário"
-                },
                 "geminipro": {
                     "api_key": "Chave de Api",
                     "stream": "Modo de Stream"
@@ -50,12 +47,6 @@
                     "token": "Token",
                     "name": "Nome da Coleção",
                     "title": "Eudic"
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "Caminho do Pedido"
                 }
             }
         },
@@ -154,7 +145,6 @@
                 "detect_engine": "Mecanismo de Detecção de Idioma",
                 "local": "Local",
                 "disable": "Desativar",
-                "history_disable": "Desativar Histórico",
                 "hide_window": "Ocultar Janela de Tradução",
                 "remember_window_size": "Lembrar do Tamanho da Janela",
                 "delete_newline": "Apagar Nova Linha",
@@ -174,24 +164,6 @@
                 "hide_source": "Ocultar Área de Origem",
                 "incremental_translate": "Traduzir Incrementalmente",
                 "target_language": "Idioma de Destino"
-            },
-            "backup": {
-                "local": "Local",
-                "empty": "Ainda não fez backup",
-                "restore": "Restaurar",
-                "title": "Configurações de Backup",
-                "webdav": "WebDav",
-                "load_success": "Carregar Backup com Sucesso",
-                "list": "Lista de Backup",
-                "backup": "Backup",
-                "password": "Palavra-passe",
-                "webdav_url": "URL do WebDav",
-                "username": "Nome de Utilizador",
-                "backup_success": "Backup com Sucesso",
-                "label": "Backup",
-                "type": "Tipo de Serviço",
-                "logout": "Sair",
-                "login_success": "Sucesso de Login"
             },
             "recognize": {
                 "delete_newline": "Apagar Nova Linha Automaticamente",
@@ -217,7 +189,6 @@
                 "add_service": "Adicionar Serviço",
                 "uninstall_success": "Plug-in desinstalado com sucesso",
                 "least": "Por favor, mantenha pelo menos um",
-                "tts": "TTS",
                 "homepage": "Homepage",
                 "translate": "Traduzir",
                 "recognize": "Reconhecimento",
@@ -244,12 +215,7 @@
                 "email": "Email",
                 "github": "GitHub",
                 "discussion": "Discussão no GitHub",
-                "qq_channel": "Canal no QQ",
-                "view_log": "Exibir Registro"
-            },
-            "history": {
-                "label": "Histórico",
-                "title": "Histórico"
+                "qq_channel": "Canal no QQ"
             }
         },
         "translate": {
@@ -259,8 +225,7 @@
             "recognizing": "A reconhecer…",
             "translate_back": "Tradução de volta ao original",
             "translate": "Traduzir",
-            "copy": "Copiar",
-            "speak": "Falar"
+            "copy": "Copiar"
         },
         "updater": {
             "installed": "Instalação concluída, reinicie a aplicação para que as alterações entrem em vigor",

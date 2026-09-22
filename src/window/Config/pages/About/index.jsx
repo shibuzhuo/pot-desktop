@@ -1,5 +1,5 @@
 import { Divider, Button, Popover, PopoverTrigger, PopoverContent, Tooltip } from '@nextui-org/react';
-import { appLogDir, appConfigDir } from '@tauri-apps/api/path';
+import { appConfigDir } from '@tauri-apps/api/path';
 import { useTranslation } from 'react-i18next';
 import { open } from '@tauri-apps/api/shell';
 import { BsTencentQq } from 'react-icons/bs';
@@ -168,17 +168,6 @@ export default function About() {
                         }}
                     >
                         {t('config.about.check_update')}
-                    </Button>
-                    <Button
-                        variant='light'
-                        className='my-[5px]'
-                        size='sm'
-                        onPress={async () => {
-                            const dir = await appLogDir();
-                            open(dir);
-                        }}
-                    >
-                        {t('config.about.view_log')}
                     </Button>
                     <Button
                         variant='light'

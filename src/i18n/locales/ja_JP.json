@@ -7,11 +7,6 @@
                 "delete_newline": "改行を削除",
                 "source_language": "ソース言語"
             },
-            "backup": {
-                "title": "バックアップ設定",
-                "label": "バックアップ",
-                "type": "サービスの種類"
-            },
             "about": {
                 "title": "アプリケーションに関する",
                 "label": "に関する"
@@ -64,10 +59,6 @@
             "service": {
                 "title": "サービス設定",
                 "label": "サービス"
-            },
-            "history": {
-                "label": "履歴",
-                "title": "履歴"
             }
         },
         "languages": {
@@ -118,11 +109,6 @@
             "recognize": {
                 "oneocr": {
                     "title": "OneOCR"
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "request_path": "リクエストパス"
                 }
             },
             "collection": {

@@ -52,20 +52,11 @@ fn check_available(list: Vec<String>, builtin: Vec<&str>, plugin: Vec<String>, k
 
 pub fn check_service_available() -> Result<(), Error> {
     let builtin_recognize_list: Vec<&str> = vec!["oneocr"];
-    let builtin_translate_list: Vec<&str> = vec![
-        "bing_dict",
-        "cambridge_dict",
-        "ecdict",
-        "geminipro",
-        "ollama",
-        "openai",
-    ];
-    let builtin_tts_list: Vec<&str> = vec!["lingva_tts"];
+    let builtin_translate_list: Vec<&str> = vec!["cambridge_dict", "geminipro", "ollama", "openai"];
     let builtin_collection_list: Vec<&str> = vec!["anki", "eudic"];
 
     let plugin_recognize_list: Vec<String> = get_plugin_list("recognize").unwrap_or_default();
     let plugin_translate_list: Vec<String> = get_plugin_list("translate").unwrap_or_default();
-    let plugin_tts_list: Vec<String> = get_plugin_list("tts").unwrap_or_default();
     let plugin_collection_list: Vec<String> = get_plugin_list("collection").unwrap_or_default();
     if let Some(recognize_service_list) = get("recognize_service_list") {
         let recognize_service_list: Vec<String> = serde_json::from_value(recognize_service_list)?;
@@ -91,15 +82,13 @@ pub fn check_service_available() -> Result<(), Error> {
             plugin_translate_list,
             "translate_service_list",
         );
-    }
-    if let Some(tts_service_list) = get("tts_service_list") {
-        let tts_service_list: Vec<String> = serde_json::from_value(tts_service_list)?;
-        check_available(
-            tts_service_list,
-            builtin_tts_list,
-            plugin_tts_list,
-            "tts_service_list",
-        );
+        // 清理后列表为空时兜底填充默认服务
+        if let Some(list) = get("translate_service_list") {
+            let list: Vec<String> = serde_json::from_value(list)?;
+            if list.is_empty() {
+                set("translate_service_list", vec!["openai"]);
+            }
+        }
     }
     if let Some(collection_service_list) = get("collection_service_list") {
         let collection_service_list: Vec<String> = serde_json::from_value(collection_service_list)?;

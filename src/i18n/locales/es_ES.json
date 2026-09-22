@@ -113,7 +113,6 @@
                 "label": "Traducir",
                 "second_language": "Segundo idioma de destino",
                 "auto_copy": "Copiar automático",
-                "history_disable": "Desactivar historial",
                 "pre_state": "Recordar posición",
                 "remember_window_size": "Recordar tamaño de ventana",
                 "mouse": "Seguir el puntero",
@@ -141,7 +140,6 @@
             },
             "service": {
                 "translate": "Traducir",
-                "tts": "texto a voz",
                 "view_plugin_list": "Ver lista de complementos",
                 "label": "Servicio",
                 "test_failed": "Prueba fallida",
@@ -152,27 +150,9 @@
                 "homepage": "Inicio",
                 "uninstall_success": "Complemento desinstalado con éxito"
             },
-            "history": {
-                "title": "Historial",
-                "label": "Historial"
-            },
-            "backup": {
-                "label": "Copia de seguridad",
-                "username": "Nombre de usuario",
-                "logout": "Cerrar sesión",
-                "backup": "Copia de seguridad",
-                "load_success": "Cargar copia de seguridad con éxito",
-                "restore": "Restaurar",
-                "title": "Ajustes de copia de seguridad",
-                "login_success": "Inicio de sesión con éxito",
-                "list": "Hacer copia de seguridad de lista",
-                "backup_success": "Copia de seguridad hecha con éxito",
-                "password": "Contraseña"
-            },
             "about": {
                 "label": "Acerca de",
                 "github": "GitHub",
-                "view_log": "Ver registros",
                 "view_config": "Ver configuración",
                 "discussion": "Debates de GitHub",
                 "title": "Acerca de la aplicación",
@@ -210,9 +190,6 @@
                     "title": "OpenAI",
                     "openai": "OpenAI"
                 },
-                "bing_dict": {
-                    "title": "Diccionario Bing"
-                },
                 "cambridge_dict": {
                     "title": "Diccionario Cambridge"
                 }
@@ -231,15 +208,9 @@
                     "title": "Eudic"
                 }
             },
-            "help": "Guía de configuración",
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva"
-                }
-            }
+            "help": "Guía de configuración"
         },
         "translate": {
-            "speak": "Hablar",
             "copy": "Copiar",
             "retry": "Intentar de nuevo"
         }

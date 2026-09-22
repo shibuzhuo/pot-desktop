@@ -97,7 +97,6 @@
                 "auto_copy": "نسخ تلقائي",
                 "source": "المصدر",
                 "disable": "معطل",
-                "history_disable": "عطل السجل",
                 "target_language": "اللغة المستهدفة",
                 "second_language": "اللغة المستهدفة الثانوية",
                 "target": "المستهدف",
@@ -152,7 +151,6 @@
                 "label": "الخدمات",
                 "title": "إعدادات الخدمات",
                 "translate": "الترجمة",
-                "tts": "النص إلى كلام",
                 "recognize": "التعرف",
                 "least": "فضلا احتفظ بواحد على الأقل",
                 "collection": "المجموعة",
@@ -165,30 +163,6 @@
                 "uninstall_success": "أزيل الملحق بنجاح",
                 "homepage": "الصفحة الرئيسية"
             },
-            "backup": {
-                "username": "اسم المستخدم",
-                "password": "كلمة السر",
-                "label": "نسخة احتياطية",
-                "title": "اعدادات النسخ الاحتياطي",
-                "type": "نوع الخدمة",
-                "webdav": "ويب داف",
-                "local": "محلي",
-                "webdav_url": "عنوان ويب داف",
-                "logout": "تسجيل خروج",
-                "login_success": "نجح تسجيل الدخول",
-                "backup": "نسخة احتياطية",
-                "restore": "استعد",
-                "list": "قائمة النُسخ الاحتياطية",
-                "load_success": "حمل النسخ الإحتياطي بنجاح",
-                "backup_success": "نسخ احتياطي ناجح",
-                "aliyun": "Aliyun drive",
-                "aliyun_login_first": "يرجى مسح الرمز ضوئياً لتسجيل الدخول أولاً.",
-                "empty": "لم تنسخ نسخة احتياطية بعد"
-            },
-            "history": {
-                "label": "السجل",
-                "title": "السجل"
-            },
             "about": {
                 "label": "حول",
                 "title": "عن التطبيق",
@@ -198,7 +172,6 @@
                 "email": "البريد الالكتروني",
                 "community": "المجتمع",
                 "check_update": "تحقق من التحديث",
-                "view_log": "اعرض السجل",
                 "telegram": "تيليجرام",
                 "view_config": "اعرض التكوين",
                 "qq_channel": "قناة QQ",
@@ -229,7 +202,6 @@
             "retry": "حاول مرة اخرى",
             "copy": "انسخ",
             "translate": "ترجمة",
-            "speak": "تكلم",
             "add_collection_success": "تمت الإضافة إلى المجموعة بنجاح"
         },
         "services": {
@@ -273,17 +245,9 @@
                     "api_key": "مفتاح Api",
                     "title": "Gemini الاحترافية",
                     "prompt_description": "من خلال تخصيص الموجه يمكنك تخصيص سلوك Gemini Pro. $text $from $to $detect سيتم استبدالها بالنص المراد ترجمته واللغة المصدر واللغة الهدف واللغة المكتشفة."
-                },
-                "ecdict": {
-                    "title": "ECDict (متصل)"
                 }
             },
             "instance_name": "اسم التكوين",
-            "tts": {
-                "lingva_tts": {
-                    "request_path": "مسار الطلب"
-                }
-            },
             "recognize": {
                 "oneocr": {
                     "title": "OneOCR"

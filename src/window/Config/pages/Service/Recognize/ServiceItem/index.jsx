@@ -12,7 +12,6 @@ import {
     getServiceSouceType,
 } from '../../../../../../utils/service_instance';
 import * as builtinServices from '../../../../../../services/recognize';
-import { osType } from '../../../../../../utils/env';
 import { useConfig } from '../../../../../../hooks';
 
 export default function ServiceItem(props) {
@@ -41,11 +40,7 @@ export default function ServiceItem(props) {
                     {serviceSourceType === ServiceSourceType.BUILDIN && (
                         <>
                             <img
-                                src={
-                                    serviceName === 'system'
-                                        ? `logo/${osType}.svg`
-                                        : builtinServices[serviceName].info.icon
-                                }
+                                src={builtinServices[serviceName].info.icon}
                                 className='h-[24px] w-[24px] my-auto'
                                 draggable={false}
                             />

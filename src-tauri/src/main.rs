@@ -1,7 +1,6 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-mod backup;
 mod clipboard;
 mod cmd;
 mod config;
@@ -14,7 +13,6 @@ mod server;
 mod tray;
 mod window;
 
-use backup::*;
 use clipboard::*;
 use cmd::*;
 use config::*;
@@ -51,14 +49,13 @@ fn main() {
         }))
         .plugin(
             tauri_plugin_log::Builder::default()
-                .targets([LogTarget::LogDir, LogTarget::Stdout])
+                .targets([LogTarget::Stdout])
                 .build(),
         )
         .plugin(tauri_plugin_autostart::init(
             tauri_plugin_autostart::MacosLauncher::LaunchAgent,
             Some(vec![]),
         ))
-        .plugin(tauri_plugin_sql::Builder::default().build())
         .plugin(tauri_plugin_store::Builder::default().build())
         .plugin(tauri_plugin_fs_watch::init())
         .system_tray(tauri::SystemTray::new())
@@ -136,11 +133,8 @@ fn main() {
             updater_window,
             screenshot,
             lang_detect,
-            webdav,
-            local,
             install_plugin,
             font_list,
-            aliyun
         ])
         .on_system_tray_event(tray_event_handler)
         .build(tauri::generate_context!())

@@ -69,11 +69,9 @@ export default function Translate() {
     const [windowPosition] = useConfig('translate_window_position', 'mouse');
     const [rememberWindowSize] = useConfig('translate_remember_window_size', false);
     const [translateServiceInstanceList, setTranslateServiceInstanceList] = useConfig('translate_service_list', [
-        'bing_dict',
-        'ecdict',
+        'openai',
     ]);
     const [recognizeServiceInstanceList] = useConfig('recognize_service_list', ['oneocr']);
-    const [ttsServiceInstanceList] = useConfig('tts_service_list', ['lingva_tts']);
     const [collectionServiceInstanceList] = useConfig('collection_service_list', []);
     const [hideLanguage] = useConfig('hide_language', false);
     const [pined, setPined] = useState(false);
@@ -159,7 +157,7 @@ export default function Translate() {
     }, [rememberWindowSize]);
 
     const loadPluginList = async () => {
-        const serviceTypeList = ['translate', 'tts', 'recognize', 'collection'];
+        const serviceTypeList = ['translate', 'recognize', 'collection'];
         let temp = {};
         for (const serviceType of serviceTypeList) {
             temp[serviceType] = {};
@@ -200,9 +198,6 @@ export default function Translate() {
         for (const serviceInstanceKey of recognizeServiceInstanceList) {
             config[serviceInstanceKey] = (await store.get(serviceInstanceKey)) ?? {};
         }
-        for (const serviceInstanceKey of ttsServiceInstanceList) {
-            config[serviceInstanceKey] = (await store.get(serviceInstanceKey)) ?? {};
-        }
         for (const serviceInstanceKey of collectionServiceInstanceList) {
             config[serviceInstanceKey] = (await store.get(serviceInstanceKey)) ?? {};
         }
@@ -212,15 +207,13 @@ export default function Translate() {
         if (
             translateServiceInstanceList !== null &&
             recognizeServiceInstanceList !== null &&
-            ttsServiceInstanceList !== null &&
-            collectionServiceInstanceList !== null
+                collectionServiceInstanceList !== null
         ) {
             loadServiceInstanceConfigMap();
         }
     }, [
         translateServiceInstanceList,
         recognizeServiceInstanceList,
-        ttsServiceInstanceList,
         collectionServiceInstanceList,
     ]);
 

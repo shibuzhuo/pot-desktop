@@ -101,7 +101,6 @@
                 "target": "Destino",
                 "source_target": "Origem+Destino",
                 "disable": "Desabilitar",
-                "history_disable": "Desabilitar Histórico",
                 "incremental_translate": "Tradução Incremental",
                 "dynamic_translate": "Tradução Dinâmica",
                 "delete_newline": "Excluir Nova Linha",
@@ -152,7 +151,6 @@
                 "label": "Serviço",
                 "title": "Configuração do Serviço",
                 "translate": "Traduzir",
-                "tts": "TTS",
                 "recognize": "Reconhecimento",
                 "collection": "Coleção",
                 "least": "Por favor, mantenha pelo menos um",
@@ -165,30 +163,6 @@
                 "homepage": "Homepage",
                 "view_plugin_list": "Exibir Lista de Plugins"
             },
-            "history": {
-                "label": "Histórico",
-                "title": "Histórico"
-            },
-            "backup": {
-                "label": "Backup",
-                "title": "Configurações de Backup",
-                "type": "Tipo de Serviço",
-                "webdav": "WebDav",
-                "local": "Local",
-                "webdav_url": "URL do WebDav",
-                "username": "Nome de usuário",
-                "password": "Senha",
-                "backup": "Backup",
-                "restore": "Restaurar",
-                "list": "Lista de Backup",
-                "load_success": "Carregar Backup com Sucesso",
-                "backup_success": "Backup com Sucesso",
-                "empty": "Você não fez backup ainda",
-                "logout": "Sair",
-                "login_success": "Entrou com sucesso",
-                "aliyun_login_first": "Por favor, leia o código para fazer login primeiro.",
-                "aliyun": "Aliyun Drive"
-            },
             "about": {
                 "label": "Sobre",
                 "title": "Sobre o Aplicativo",
@@ -199,7 +173,6 @@
                 "email": "Email",
                 "community": "Comunidade",
                 "check_update": "Checar por Atualização",
-                "view_log": "Exibir Registro",
                 "view_config": "Exibir Configuração",
                 "qq_channel": "Canal no QQ",
                 "qq_group": "Grupo QQ",
@@ -233,9 +206,6 @@
                     "prompt_description": "Ao personalizar o Prompt, você pode personalizar o comportamento do OpenAI. $text $from $to $detect será substituído pelo texto a ser traduzido, idioma de origem, idioma de destino e idioma detectado.",
                     "add": "Adicionar Prompt"
                 },
-                "bing_dict": {
-                    "title": "Bing Dicionário"
-                },
                 "cambridge_dict": {
                     "title": "Cambridge Dicionário"
                 },
@@ -260,20 +230,11 @@
                     "ready": "Pronto",
                     "not_installed": "Este modelo ainda não foi instalado, clique para baixar e instalar agora",
                     "prompt_description": "Ao personalizar o Prompt, você pode personalizar o comportamento da IA. $text $from $to $detect será substituído pelo texto a ser traduzido, idioma de origem, idioma de destino e idioma detectado."
-                },
-                "ecdict": {
-                    "title": "ECDict(Online)"
                 }
             },
             "recognize": {
                 "oneocr": {
                     "title": "OneOCR"
-                }
-            },
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "Caminho do Pedido"
                 }
             },
             "collection": {
@@ -292,7 +253,6 @@
             "translate": "Traduzir",
             "add_collection_success": "Adicionar à coleção com sucesso",
             "recognizing": "Reconhecendo…",
-            "speak": "Falar",
             "copy": "Copiar",
             "delete_newline": "Excluir Quebra de Linha",
             "translate_back": "Tradução de volta ao original",
