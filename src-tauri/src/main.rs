@@ -8,9 +8,9 @@ mod config;
 mod error;
 mod hotkey;
 mod lang_detect;
+mod oneocr;
 mod screenshot;
 mod server;
-mod system_ocr;
 mod tray;
 mod window;
 
@@ -22,10 +22,10 @@ use hotkey::*;
 use lang_detect::*;
 use log::info;
 use once_cell::sync::OnceCell;
+use oneocr::*;
 use screenshot::screenshot;
 use server::*;
 use std::sync::Mutex;
-use system_ocr::*;
 use tauri::api::notification::Notification;
 use tauri::Manager;
 use tauri_plugin_log::LogTarget;
@@ -105,11 +105,8 @@ fn main() {
                 }
                 None => {}
             }
-            if let Some(engine) = get("translate_detect_engine") {
-                if engine.as_str().unwrap() == "local" {
-                    init_lang_detect();
-                }
-            }
+            // Init Local Language Detector (lingua)
+            init_lang_detect();
             let clipboard_monitor = match get("clipboard_monitor") {
                 Some(v) => v.as_bool().unwrap(),
                 None => {
@@ -129,7 +126,7 @@ fn main() {
             cut_image,
             get_base64,
             copy_img,
-            system_ocr,
+            oneocr_ocr,
             set_proxy,
             unset_proxy,
             run_binary,

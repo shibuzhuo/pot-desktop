@@ -126,12 +126,6 @@
                 "hide_language": "Hide Language Area",
                 "hide_window": "Hide Translation Window",
                 "detect_engine": "Language Detection Engine",
-                "baidu": "Baidu",
-                "tencent": "Tencent",
-                "niutrans": "NiuTrans",
-                "google": "Google",
-                "bing": "Bing",
-                "yandex": "Yandex",
                 "local": "Local"
             },
             "recognize": {
@@ -274,76 +268,9 @@
                 }
             },
             "recognize": {
-                "system": {
-                    "title": "System OCR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "baidu_ocr": {
-                    "title": "Baidu OCR",
-                    "client_id": "API Key",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_accurate_ocr": {
-                    "title": "Baidu OCR (Accurate)",
-                    "client_id": "API Key",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_img_ocr": {
-                    "title": "Baidu Image Translation",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "iflytek_ocr": {
-                    "title": "iFlyTek OCR",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "iflytek_intsig_ocr": {
-                    "title": "iFlyTek OCR (Intsig)",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "iflytek_latex_ocr": {
-                    "title": "iFlyTek LaTeX",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "simple_latex_ocr": {
-                    "title": "Simple LaTeX",
-                    "token": "Token"
-                },
-                "tencent_ocr": {
-                    "title": "Tencent OCR",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_accurate_ocr": {
-                    "title": "Tencent OCR (Accurate)",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_img_ocr": {
-                    "title": "Tencent Image Translation",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine_ocr": {
-                    "title": "VolcEngine OCR",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "title": "VolcEngine OCR (Multi Language)",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "qrcode": {
-                    "title": "QR Code"
+                "oneocr": {
+                    "title": "OneOCR",
+                    "tip": "Uses the OneOCR engine built into the Win11 Snipping Tool (offline). Requires oneocr.dll, oneocr.onemodel and onnxruntime.dll next to pot.exe, copied from the Snipping Tool install directory."
                 }
             },
             "tts": {

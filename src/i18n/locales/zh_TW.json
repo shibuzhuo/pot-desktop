@@ -115,12 +115,6 @@
                 "hide_language": "隱藏語言區域",
                 "hide_window": "隱藏翻譯視窗",
                 "detect_engine": "語言偵測引擎",
-                "baidu": "百度",
-                "tencent": "騰訊",
-                "niutrans": "小牛翻譯",
-                "google": "Google",
-                "bing": "Bing",
-                "yandex": "Yandex",
                 "local": "本地",
                 "font_size": {
                     "18": "大（18px）",
@@ -268,76 +262,8 @@
                 }
             },
             "recognize": {
-                "system": {
-                    "title": "系統 OCR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "baidu_ocr": {
-                    "title": "百度 OCR",
-                    "client_id": "API Key",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_accurate_ocr": {
-                    "title": "百度 OCR（高精度）",
-                    "client_id": "API Key",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_img_ocr": {
-                    "title": "百度圖片翻譯",
-                    "appid": "應用程式 ID",
-                    "secret": "Secret"
-                },
-                "iflytek_ocr": {
-                    "title": "訊飛 OCR",
-                    "appid": "應用程式 ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "iflytek_intsig_ocr": {
-                    "title": "訊飛 OCR (Intsig)",
-                    "appid": "應用程式 ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "iflytek_latex_ocr": {
-                    "title": "訊飛公式辨識",
-                    "appid": "應用程式 ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "simple_latex_ocr": {
-                    "title": "Simple LaTeX",
-                    "token": "Token"
-                },
-                "tencent_ocr": {
-                    "title": "騰訊 OCR",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_accurate_ocr": {
-                    "title": "騰訊 OCR（高精度）",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_img_ocr": {
-                    "title": "騰訊圖片翻譯",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine_ocr": {
-                    "title": "火山 OCR",
-                    "appid": "應用程式 ID",
-                    "secret": "Secret Key"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "title": "火山 OCR（多語言）",
-                    "appid": "應用程式 ID",
-                    "secret": "Secret"
-                },
-                "qrcode": {
-                    "title": "QR Code"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "tts": {

@@ -120,12 +120,6 @@
                 "hide_language": "اخف منطقة اللغة",
                 "hide_window": "اخف نافذة الترجمة",
                 "detect_engine": "محرك اكتشاف اللغة",
-                "baidu": "محرك Baidu",
-                "tencent": "محرك Tencent",
-                "niutrans": "محرك NiuTrans",
-                "google": "جوجل",
-                "bing": "بينج",
-                "yandex": "محرك Yandex",
                 "local": "محلي",
                 "window_position": "موضع النافذة",
                 "mouse": "تتبع الفأرة",
@@ -291,55 +285,8 @@
                 }
             },
             "recognize": {
-                "tencent_accurate_ocr": {
-                    "secret_id": "المعرف السري",
-                    "secret_key": "المفتاح السري"
-                },
-                "tencent_img_ocr": {
-                    "secret_id": "المعرف السري",
-                    "secret_key": "المفتاح السري"
-                },
-                "iflytek_latex_ocr": {
-                    "apikey": "مفتاح API",
-                    "apisecret": "مفتاح API السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "baidu_ocr": {
-                    "client_id": "مفتاح API",
-                    "client_secret": "المفتاح السري"
-                },
-                "baidu_accurate_ocr": {
-                    "client_id": "مفتاح API",
-                    "client_secret": "المفتاح السري"
-                },
-                "iflytek_intsig_ocr": {
-                    "apikey": "مفتاح API",
-                    "apisecret": "مفتاح API السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "tencent_ocr": {
-                    "secret_id": "المعرف السري",
-                    "secret_key": "المفتاح السري"
-                },
-                "volcengine_ocr": {
-                    "secret": "السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "secret": "السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "iflytek_ocr": {
-                    "apikey": "مفتاح API",
-                    "apisecret": "مفتاح API السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "baidu_img_ocr": {
-                    "secret": "السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "qrcode": {
-                    "title": "رمز الاستجابة السريعة"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             }
         }

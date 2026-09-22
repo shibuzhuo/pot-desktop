@@ -35,12 +35,6 @@
         },
         "config": {
             "translate": {
-                "baidu": "பைடு",
-                "tencent": "டென்சென்ட்",
-                "niutrans": "நைட்ரான்ச்",
-                "google": "கூகிள்",
-                "bing": "பிங்",
-                "yandex": "யாண்டெக்ச்",
                 "local": "உள்ளக",
                 "label": "மொழிபெயர்த்திடு",
                 "title": "மொழிபெயர்ப்பு அமைப்புகள்",
@@ -250,76 +244,8 @@
                 }
             },
             "recognize": {
-                "iflytek_ocr": {
-                    "title": "iflytek ocr",
-                    "appid": "பயன்பாட்டு ஐடி",
-                    "apisecret": "பநிஇ மறைபொருள்",
-                    "apikey": "பநிஇ விசை"
-                },
-                "system": {
-                    "title": "கணினி OCR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "baidu_ocr": {
-                    "title": "பைடு ஓ.சி.ஆர்",
-                    "client_id": "பநிஇ விசை",
-                    "client_secret": "ரகசிய விசை"
-                },
-                "baidu_accurate_ocr": {
-                    "title": "பைடு OCR (துல்லியமானது)",
-                    "client_id": "பநிஇ விசை",
-                    "client_secret": "ரகசிய விசை"
-                },
-                "baidu_img_ocr": {
-                    "title": "பைடு பட மொழிபெயர்ப்பு",
-                    "appid": "பயன்பாட்டு ஐடி",
-                    "secret": "மறைபொருள்"
-                },
-                "iflytek_intsig_ocr": {
-                    "title": "Iflytek ocr (insig)",
-                    "appid": "பயன்பாட்டு ஐடி",
-                    "apisecret": "பநிஇ மறைபொருள்",
-                    "apikey": "பநிஇ விசை"
-                },
-                "iflytek_latex_ocr": {
-                    "title": "iflytek லாடெக்சு",
-                    "appid": "பயன்பாட்டு ஐடி",
-                    "apisecret": "பநிஇ மறைபொருள்",
-                    "apikey": "பநிஇ விசை"
-                },
-                "simple_latex_ocr": {
-                    "title": "எளிய மரப்பால்",
-                    "token": "கிள்ளாக்கு"
-                },
-                "tencent_ocr": {
-                    "title": "டென்சென்ட் OCR",
-                    "secret_id": "ரகசிய ஐடி",
-                    "secret_key": "ரகசிய விசை"
-                },
-                "tencent_accurate_ocr": {
-                    "title": "டென்சென்ட் OCR (துல்லியமானது)",
-                    "secret_id": "ரகசிய ஐடி",
-                    "secret_key": "ரகசிய விசை"
-                },
-                "tencent_img_ocr": {
-                    "title": "டென்சென்ட் பட மொழிபெயர்ப்பு",
-                    "secret_id": "ரகசிய ஐடி",
-                    "secret_key": "ரகசிய விசை"
-                },
-                "volcengine_ocr": {
-                    "title": "வோல்செங்கின் OCR",
-                    "appid": "பயன்பாட்டு ஐடி",
-                    "secret": "மறைபொருள்"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "title": "வோல்செங்கின் OCR (பல மொழி)",
-                    "appid": "பயன்பாட்டு ஐடி",
-                    "secret": "மறைபொருள்"
-                },
-                "qrcode": {
-                    "title": "QR குறியீடு"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "help": "உள்ளமைவு வழிகாட்டி",

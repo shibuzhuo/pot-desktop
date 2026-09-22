@@ -8,12 +8,12 @@ export function Config(props) {
 
     return (
         <>
-            <div>{t('services.no_need')}</div>
+            <div>{t('services.recognize.oneocr.tip')}</div>
             <div>
                 <Button
                     fullWidth
                     onPress={() => {
-                        updateServiceList('qrcode');
+                        updateServiceList('oneocr');
                         onClose();
                     }}
                 >

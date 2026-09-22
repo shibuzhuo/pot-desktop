@@ -20,21 +20,9 @@
                 "openai_summary": {}
             },
             "recognize": {
-                "iflytek_latex_ocr": {},
-                "baidu_ocr": {},
-                "simple_latex_ocr": {},
-                "volcengine_ocr": {},
-                "iflytek_intsig_ocr": {},
-                "baidu_accurate_ocr": {},
-                "baidu_img_ocr": {},
-                "volcengine_multi_lang_ocr": {},
-                "tencent_ocr": {},
-                "tencent_accurate_ocr": {},
-                "iflytek_ocr": {},
-                "qrcode": {},
-                "tesseract": {},
-                "tencent_img_ocr": {},
-                "system": {}
+                "oneocr": {
+                    "title": "OneOCR"
+                }
             },
             "collection": {
                 "anki": {},

@@ -116,20 +116,8 @@
         "services": {
             "translate": {},
             "recognize": {
-                "volcengine_ocr": {
-                    "appid": "アプリID"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "appid": "アプリID"
-                },
-                "qrcode": {
-                    "title": "QRコード"
-                },
-                "simple_latex_ocr": {
-                    "token": "トークン"
-                },
-                "tencent_img_ocr": {
-                    "title": "テンセント画像翻訳"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "tts": {

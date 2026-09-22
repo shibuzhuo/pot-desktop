@@ -125,12 +125,6 @@
                 "hide_language": "Sprachleiste ausblenden",
                 "hide_window": "Übersetzungsfenster ausblenden",
                 "detect_engine": "Spracherkennungs-Engine",
-                "baidu": "Baidu",
-                "tencent": "Tencent",
-                "niutrans": "Niutrans",
-                "google": "Google",
-                "bing": "Bing",
-                "yandex": "Yandex",
                 "local": "Lokal"
             },
             "recognize": {
@@ -253,76 +247,8 @@
                 }
             },
             "recognize": {
-                "system": {
-                    "title": "System OCR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "baidu_ocr": {
-                    "title": "Baidu OCR",
-                    "client_id": "API-Schlüssel",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_accurate_ocr": {
-                    "title": "Baidu OCR (Hochpräzise)",
-                    "client_id": "API-Schlüssel",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_img_ocr": {
-                    "title": "Baidu Bildübersetzung",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "iflytek_ocr": {
-                    "title": "iFlyTek OCR",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API-Schlüssel"
-                },
-                "iflytek_intsig_ocr": {
-                    "title": "iFlyTek OCR (Intsig)",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API-Schlüssel"
-                },
-                "iflytek_latex_ocr": {
-                    "title": "iFlytek LaTeX",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API-Schlüssel"
-                },
-                "simple_latex_ocr": {
-                    "title": "Simple LaTeX",
-                    "token": "Token"
-                },
-                "tencent_ocr": {
-                    "title": "Tencent OCR",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_accurate_ocr": {
-                    "title": "Tencent OCR (Hochpräzise)",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_img_ocr": {
-                    "title": "Tencent Bildübersetzung",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine_ocr": {
-                    "title": "VolcEngine OCR",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "title": "VolcEngine OCR (Mehrere Sprachen)",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "qrcode": {
-                    "title": "QR-Code-Erkennung"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "tts": {

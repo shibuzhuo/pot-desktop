@@ -51,23 +51,7 @@ fn check_available(list: Vec<String>, builtin: Vec<&str>, plugin: Vec<String>, k
 }
 
 pub fn check_service_available() -> Result<(), Error> {
-    let builtin_recognize_list: Vec<&str> = vec![
-        "baidu_ocr",
-        "baidu_accurate_ocr",
-        "baidu_img_ocr",
-        "iflytek_ocr",
-        "iflytek_intsig_ocr",
-        "iflytek_latex_ocr",
-        "qrcode",
-        "simple_latex_ocr",
-        "system",
-        "tencent_ocr",
-        "tencent_accurate_ocr",
-        "tencent_img_ocr",
-        "tesseract",
-        "volcengine_ocr",
-        "volcengine_multi_lang_ocr",
-    ];
+    let builtin_recognize_list: Vec<&str> = vec!["oneocr"];
     let builtin_translate_list: Vec<&str> = vec![
         "bing_dict",
         "cambridge_dict",
@@ -87,10 +71,17 @@ pub fn check_service_available() -> Result<(), Error> {
         let recognize_service_list: Vec<String> = serde_json::from_value(recognize_service_list)?;
         check_available(
             recognize_service_list,
-            builtin_recognize_list,
+            builtin_recognize_list.clone(),
             plugin_recognize_list,
             "recognize_service_list",
         );
+        // 清理后列表为空时兜底填充默认服务
+        if let Some(list) = get("recognize_service_list") {
+            let list: Vec<String> = serde_json::from_value(list)?;
+            if list.is_empty() {
+                set("recognize_service_list", vec!["oneocr"]);
+            }
+        }
     }
     if let Some(translate_service_list) = get("translate_service_list") {
         let translate_service_list: Vec<String> = serde_json::from_value(translate_service_list)?;

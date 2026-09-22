@@ -150,13 +150,7 @@
                 "hide_language": "הסתר אזור שפה",
                 "hide_window": "הסתר חלון תרגום",
                 "detect_engine": "מנוע זיהוי שפה",
-                "tencent": "Tencent",
-                "baidu": "Baidu",
-                "google": "Google",
-                "yandex": "Yandex",
                 "remember_window_size": "זכור את גודל החלון",
-                "niutrans": "NiuTrans",
-                "bing": "Bing",
                 "incremental_translate": "תרגום מצטבר"
             },
             "backup": {
@@ -262,56 +256,8 @@
             },
             "no_need": "אין צורך בתצורה",
             "recognize": {
-                "qrcode": {
-                    "title": "קוד QR"
-                },
-                "baidu_ocr": {
-                    "client_id": "מפתח API",
-                    "client_secret": "מפתח סודי"
-                },
-                "iflytek_ocr": {
-                    "apikey": "מפתח API",
-                    "apisecret": "API סודי",
-                    "appid": "מזהה אפליקציה"
-                },
-                "iflytek_intsig_ocr": {
-                    "apikey": "מפתח API",
-                    "apisecret": "API סודי",
-                    "appid": "מזהה אפליקציה"
-                },
-                "iflytek_latex_ocr": {
-                    "apikey": "מפתח API",
-                    "appid": "מזהה אפליקציה",
-                    "apisecret": "API סודי"
-                },
-                "simple_latex_ocr": {
-                    "token": "טוקן"
-                },
-                "baidu_accurate_ocr": {
-                    "client_id": "מפתח API",
-                    "client_secret": "מפתח סודי"
-                },
-                "baidu_img_ocr": {
-                    "secret": "סודי",
-                    "appid": "מזהה אפליקציה",
-                    "title": "תרגום תמונה של Baidu"
-                },
-                "tencent_ocr": {
-                    "secret_key": "מפתח סודי"
-                },
-                "tencent_accurate_ocr": {
-                    "secret_key": "מפתח סודי"
-                },
-                "tencent_img_ocr": {
-                    "secret_key": "מפתח סודי"
-                },
-                "volcengine_ocr": {
-                    "appid": "מזהה אפליקציה",
-                    "secret": "סודי"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "appid": "מזהה אפליקציה",
-                    "secret": "סודי"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "collection": {

@@ -126,12 +126,6 @@
                 "hide_language": "隐藏语言栏",
                 "hide_window": "隐藏翻译窗口",
                 "detect_engine": "语种检测引擎",
-                "baidu": "百度",
-                "tencent": "腾讯",
-                "niutrans": "小牛",
-                "google": "谷歌",
-                "bing": "必应",
-                "yandex": "Yandex",
                 "local": "本地"
             },
             "recognize": {
@@ -274,76 +268,9 @@
                 }
             },
             "recognize": {
-                "system": {
-                    "title": "系统 OCR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "baidu_ocr": {
-                    "title": "百度 OCR",
-                    "client_id": "API Key",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_accurate_ocr": {
-                    "title": "百度 OCR (高精度)",
-                    "client_id": "API Key",
-                    "client_secret": "Secret Key"
-                },
-                "baidu_img_ocr": {
-                    "title": "百度图片翻译",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "iflytek_ocr": {
-                    "title": "讯飞 OCR",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "iflytek_intsig_ocr": {
-                    "title": "讯飞 OCR (Intsig)",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "iflytek_latex_ocr": {
-                    "title": "讯飞公式识别",
-                    "appid": "App ID",
-                    "apisecret": "API Secret",
-                    "apikey": "API Key"
-                },
-                "simple_latex_ocr": {
-                    "title": "Simple LaTeX",
-                    "token": "Token"
-                },
-                "tencent_ocr": {
-                    "title": "腾讯 OCR",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_accurate_ocr": {
-                    "title": "腾讯 OCR (高精度)",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "tencent_img_ocr": {
-                    "title": "腾讯图片翻译",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine_ocr": {
-                    "title": "火山 OCR",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "title": "火山 OCR (多语言)",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "qrcode": {
-                    "title": "二维码识别"
+                "oneocr": {
+                    "title": "OneOCR",
+                    "tip": "调用 Win11 截图工具内置的 OneOCR 引擎(离线)。需将 oneocr.dll、oneocr.onemodel、onnxruntime.dll 放在 pot.exe 同目录,来源见 Snipping Tool 安装目录。"
                 }
             },
             "tts": {

@@ -71,23 +71,8 @@
         },
         "services": {
             "recognize": {
-                "baidu_accurate_ocr": {
-                    "client_id": "API Ключ"
-                },
-                "baidu_ocr": {
-                    "client_id": "API Ключ"
-                },
-                "iflytek_latex_ocr": {
-                    "apikey": "API Ключ"
-                },
-                "qrcode": {
-                    "title": "QR Код"
-                },
-                "iflytek_intsig_ocr": {
-                    "apikey": "API Ключ"
-                },
-                "iflytek_ocr": {
-                    "apikey": "API Ключ"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "collection": {

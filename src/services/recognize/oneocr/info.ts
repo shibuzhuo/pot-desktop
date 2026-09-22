@@ -1,6 +1,6 @@
 export const info = {
-    name: 'iflytek_intsig_ocr',
-    icon: 'logo/iflytek.png',
+    name: 'oneocr',
+    icon: 'logo/oneocr.svg',
 };
 
 export enum Language {
@@ -24,4 +24,6 @@ export enum Language {
     ms = 'ms',
     ar = 'ar',
     hi = 'hi',
+    uk = 'uk',
+    he = 'he',
 }

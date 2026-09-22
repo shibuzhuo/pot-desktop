@@ -116,15 +116,9 @@
                 "history_disable": "Desactivar historial",
                 "pre_state": "Recordar posición",
                 "remember_window_size": "Recordar tamaño de ventana",
-                "niutrans": "NiuTrans",
                 "mouse": "Seguir el puntero",
                 "always_on_top": "Siempre encima",
-                "tencent": "Tencent",
-                "google": "Google",
-                "bing": "Bing",
-                "yandex": "Yandex",
                 "hide_window": "Ocultar ventana de traducción",
-                "baidu": "Baidu",
                 "source_language": "Idioma de origen",
                 "dynamic_translate": "Traduccion dinámica"
             },
@@ -224,30 +218,8 @@
                 }
             },
             "recognize": {
-                "baidu_ocr": {
-                    "title": "Baidu OCR"
-                },
-                "qrcode": {
-                    "title": "Código QR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "simple_latex_ocr": {
-                    "title": "Simple LaTeX",
-                    "token": "Token"
-                },
-                "tencent_ocr": {
-                    "title": "Tencent OCR"
-                },
-                "iflytek_ocr": {
-                    "title": "iFlyTek OCR"
-                },
-                "iflytek_latex_ocr": {
-                    "title": "iFlyTek LaTeX"
-                },
-                "volcengine_ocr": {
-                    "title": "VolcEngine OCR"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "collection": {

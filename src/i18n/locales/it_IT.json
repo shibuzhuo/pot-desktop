@@ -33,75 +33,8 @@
                 }
             },
             "recognize": {
-                "iflytek_latex_ocr": {
-                    "apikey": "Chiave API",
-                    "title": "iFlyTek LaTeX",
-                    "apisecret": "API segreta",
-                    "appid": "ID app"
-                },
-                "baidu_ocr": {
-                    "client_id": "Chiave API",
-                    "title": "Baidu OCR",
-                    "client_secret": "Chiave segreta"
-                },
-                "simple_latex_ocr": {
-                    "title": "Semplice LaTeX",
-                    "token": "Token"
-                },
-                "volcengine_ocr": {
-                    "secret": "Segreto",
-                    "appid": "ID app"
-                },
-                "iflytek_intsig_ocr": {
-                    "appid": "ID app",
-                    "title": "iFlyTek OCR (Intsig)",
-                    "apisecret": "API segreta",
-                    "apikey": "Chiave API"
-                },
-                "baidu_accurate_ocr": {
-                    "client_secret": "Chiave segreta",
-                    "client_id": "Chiave API",
-                    "title": "Baidu OCR (Accurato)"
-                },
-                "baidu_img_ocr": {
-                    "secret": "Segreto",
-                    "appid": "ID app",
-                    "title": "Traduzione di immagini Baidu"
-                },
-                "volcengine_multi_lang_ocr": {
-                    "title": "VolcEngine OCR (multilingue)",
-                    "secret": "Segreto",
-                    "appid": "ID app"
-                },
-                "tencent_ocr": {
-                    "secret_key": "Chiave segreta",
-                    "secret_id": "ID segreto",
-                    "title": "Tencent OCR"
-                },
-                "tencent_accurate_ocr": {
-                    "title": "Tencent OCR (Accurato)",
-                    "secret_key": "Chiave segreta",
-                    "secret_id": "ID segreto"
-                },
-                "iflytek_ocr": {
-                    "title": "iFlyTek OCR",
-                    "apikey": "Chiave API",
-                    "appid": "ID app",
-                    "apisecret": "API segreta"
-                },
-                "qrcode": {
-                    "title": "Codice QR"
-                },
-                "tesseract": {
-                    "title": "Tesseract.js"
-                },
-                "tencent_img_ocr": {
-                    "secret_id": "ID segreto",
-                    "title": "Traduttore di immagini Tencent",
-                    "secret_key": "Chiave segreta"
-                },
-                "system": {
-                    "title": "Sistema OCR"
+                "oneocr": {
+                    "title": "OneOCR"
                 }
             },
             "collection": {
@@ -154,7 +87,6 @@
         },
         "config": {
             "translate": {
-                "bing": "Bing",
                 "hide_language": "Nascondi area lingua",
                 "target": "Obbiettivo",
                 "title": "Impostazioni di traduzione",
@@ -168,10 +100,7 @@
                     "10": "Molto molto piccolo (10px)",
                     "18": "Grande (18px)"
                 },
-                "google": "Google",
                 "detect_engine": "Motore di rilevamento della lingua",
-                "tencent": "Tencent",
-                "yandex": "Yandex",
                 "local": "Locale",
                 "disable": "Disabilita",
                 "hide_window": "Nascondi la finestra di traduzione",
@@ -181,7 +110,6 @@
                 "window_position": "Posizione della finestra",
                 "second_language": "Seconda lingua di destinazione",
                 "source": "Sorgente",
-                "niutrans": "NiuTrans",
                 "label": "Traduci",
                 "auto_copy": "Copia automaticamente",
                 "dynamic_translate": "Traduzione dinamica",
@@ -191,7 +119,6 @@
                 "always_on_top": "Predefinito sempre in primo piano",
                 "close_on_blur": "Chiudi su sfocatura",
                 "hide_source": "Nascondi area di origine",
-                "baidu": "Baidu",
                 "incremental_translate": "Traduzione incrementale",
                 "target_language": "Lingua di destinazione"
             },
