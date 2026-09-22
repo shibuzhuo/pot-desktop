@@ -114,11 +114,7 @@
             "copy_img": "画像をコピー"
         },
         "services": {
-            "translate": {
-                "deepseek": {
-                    "title": "DeepSeek"
-                }
-            },
+            "translate": {},
             "recognize": {
                 "volcengine_ocr": {
                     "appid": "アプリID"

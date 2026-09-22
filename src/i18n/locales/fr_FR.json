@@ -14,22 +14,7 @@
                     "add": "Ajouter une invite",
                     "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement d'OpenAI. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
                     "title": "OpenAI",
-                    "azure": "Azure",
                     "api_key": "Clé d'API"
-                },
-                "chatglm": {
-                    "title": "ChatGLM",
-                    "api_key": "Clé d'API",
-                    "chatglm_lite": "ChatGLM Lite",
-                    "chatglm_pro": "ChatGLM Pro",
-                    "model": "Modèle",
-                    "chatglm_std": "ChatGLM Std",
-                    "add": "Ajouter une invite",
-                    "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
-                    "chatglm_turbo": "ChatGLM Turbo"
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
                 },
                 "cambridge_dict": {
                     "title": "Dictionnaire Cambridge"

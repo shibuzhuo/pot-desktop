@@ -22,6 +22,13 @@ export const defaultRequestArguments = JSON.stringify({
     presence_penalty: 0,
 });
 
+// 各供应商预设，切换时自动填充请求地址和模型
+const providerPresets = {
+    openai: { requestPath: 'https://api.openai.com/v1/chat/completions', model: 'gpt-3.5-turbo' },
+    deepseek: { requestPath: 'https://api.deepseek.com/v1/chat/completions', model: 'deepseek-flash' },
+    chatglm: { requestPath: 'https://open.bigmodel.cn/api/paas/v4/chat/completions', model: 'glm-4-flash' },
+};
+
 export function Config(props) {
     const { instanceKey, updateServiceList, onClose } = props;
     const { t } = useTranslation();
@@ -133,14 +140,18 @@ export function Config(props) {
                             autoFocus='first'
                             aria-label='service'
                             onAction={(key) => {
+                                const preset = providerPresets[key] ?? {};
                                 setOpenaiConfig({
                                     ...openaiConfig,
                                     service: key,
+                                    ...(preset.requestPath ? { requestPath: preset.requestPath } : {}),
+                                    ...(preset.model ? { model: preset.model } : {}),
                                 });
                             }}
                         >
                             <DropdownItem key='openai'>{t(`services.translate.openai.openai`)}</DropdownItem>
-                            <DropdownItem key='azure'>{t(`services.translate.openai.azure`)}</DropdownItem>
+                            <DropdownItem key='deepseek'>{t(`services.translate.openai.deepseek`)}</DropdownItem>
+                            <DropdownItem key='chatglm'>{t(`services.translate.openai.chatglm`)}</DropdownItem>
                         </DropdownMenu>
                     </Dropdown>
                 </div>
@@ -225,7 +236,7 @@ export function Config(props) {
                         </div>
                     </CardBody>
                 </Card>
-                <div className={`config-item ${openaiConfig.service === 'azure' && 'hidden'}`}>
+                <div className='config-item'>
                     <Input
                         label={t('services.translate.openai.model')}
                         labelPlacement='outside-left'

@@ -214,18 +214,7 @@
                 },
                 "openai": {
                     "title": "OpenAI",
-                    "openai": "OpenAI",
-                    "azure": "Azure"
-                },
-                "chatglm": {
-                    "chatglm_pro": "ChatGLM Pro",
-                    "chatglm_std": "ChatGLM Std",
-                    "title": "ChatGLM",
-                    "chatglm_lite": "ChatGLM Lite",
-                    "chatglm_turbo": "ChatGLM Turbo"
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
+                    "openai": "OpenAI"
                 },
                 "bing_dict": {
                     "title": "Diccionario Bing"

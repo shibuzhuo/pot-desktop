@@ -6,10 +6,6 @@
         "services": {
             "translate": {
                 "openai": {},
-                "chatglm": {},
-                "deepseek": {
-                    "title": "DeepSeek"
-                },
                 "geminipro_polish": {},
                 "cambridge_dict": {},
                 "geminipro": {},

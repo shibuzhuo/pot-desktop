@@ -238,7 +238,6 @@
                     "title": "OpenAI",
                     "service": "ספק שירות",
                     "openai": "OpenAI",
-                    "azure": "Azure",
                     "api_key": "מפתח Api",
                     "request_path": "בקש נתיב",
                     "stream": "מצב הזרמה",
@@ -253,20 +252,6 @@
                     "stream": "מצב הזרמה",
                     "prompt_description": "על ידי התאמה אישית של ההנחיה, תוכל להתאים אישית את ההתנהגות של Gemini Pro כרצונך. $text $from $to $detect יוחלף בטקסט לתרגום, שפת המקור, שפת היעד ושפת הזיהוי.",
                     "add": "הוסף הנחיה"
-                },
-                "chatglm": {
-                    "title": "ChatGLM",
-                    "model": "מודל",
-                    "chatglm_turbo": "ChatGLM Turbo",
-                    "chatglm_pro": "ChatGLM Pro",
-                    "chatglm_std": "ChatGLM Std",
-                    "chatglm_lite": "ChatGLM Lite",
-                    "api_key": "מפתח Api",
-                    "add": "הוסף הנחיה",
-                    "prompt_description": "על ידי התאמה אישית של ההנחיה, אתה יכול להתאים אישית את ההתנהגות של הבינה המלאכותית. $text $from $to $detect יוחלף בטקסט לתרגום, שפת המקור, שפת היעד ושפת הזיהוי."
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
                 },
                 "bing_dict": {
                     "title": "מילון Bing"

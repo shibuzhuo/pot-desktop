@@ -5,16 +5,15 @@ import { defaultRequestArguments } from './Config';
 export async function translate(text, from, to, options) {
     const { config, setResult, detect } = options;
 
-    let { service, requestPath, model, apiKey, stream, promptList, requestArguments } = config;
+    let { requestPath, model, apiKey, stream, promptList, requestArguments } = config;
 
     if (!/https?:\/\/.+/.test(requestPath)) {
         requestPath = `https://${requestPath}`;
     }
     const apiUrl = new URL(requestPath);
 
-    // in openai like api, /v1 is not required
-    if (service === 'openai' && !apiUrl.pathname.endsWith('/chat/completions')) {
-        // not openai like, populate completion endpoint
+    // openai 协议兼容接口，未填全时自动补全 completion 端点
+    if (!apiUrl.pathname.endsWith('/chat/completions')) {
         apiUrl.pathname += apiUrl.pathname.endsWith('/') ? '' : '/';
         apiUrl.pathname += 'v1/chat/completions';
     }
@@ -42,24 +41,16 @@ export async function translate(text, from, to, options) {
         };
     });
 
-    const headers =
-        service === 'openai'
-            ? {
-                  'Content-Type': 'application/json',
-                  Authorization: `Bearer ${apiKey}`,
-              }
-            : {
-                  'Content-Type': 'application/json',
-                  'api-key': apiKey,
-              };
+    const headers = {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+    };
     const body = {
         ...JSON.parse(requestArguments ?? defaultRequestArguments),
+        model: model,
         stream: stream,
         messages: promptList,
     };
-    if (service === 'openai') {
-        body['model'] = model;
-    }
     if (stream) {
         const res = await window.fetch(apiUrl.href, {
             method: 'POST',

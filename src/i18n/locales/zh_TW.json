@@ -231,27 +231,12 @@
                     "title": "OpenAI",
                     "service": "服務提供商",
                     "openai": "OpenAI",
-                    "azure": "Azure",
                     "request_path": "請求路徑",
                     "api_key": "API Key",
                     "model": "模型",
                     "stream": "串流輸出",
                     "prompt_description": "透過自定義 Prompt，您可以自定義 OpenAI 的行為。$text $from $to $detect 將被替換為待翻譯的文字、來源語言、目標語言和偵測到的語言。",
                     "add": "新增 Prompt"
-                },
-                "chatglm": {
-                    "title": "ChatGLM",
-                    "model": "模型",
-                    "chatglm_pro": "ChatGLM Pro",
-                    "chatglm_std": "ChatGLM Std",
-                    "chatglm_lite": "ChatGLM Lite",
-                    "api_key": "API Key",
-                    "prompt_description": "透過自定義 Prompt，您可以自定義 AI 的行為。$text $from $to $detect 將被替換為待翻譯的文字、來源語言、目標語言和偵測到的語言。",
-                    "add": "新增 Prompt",
-                    "chatglm_turbo": "ChatGLM Turbo"
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
                 },
                 "bing_dict": {
                     "title": "必應詞典"

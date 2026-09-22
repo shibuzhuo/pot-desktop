@@ -267,7 +267,6 @@
                     "prompt_description": "من خلال تخصيص الموجه يمكنك تخصيص سلوك OpenAI. $text $from $to $detect سيتم استبدالها بالنص المراد ترجمته واللغة المصدر واللغة الهدف واللغة المكتشفة.",
                     "service": "مزود خدمة",
                     "openai": "OpenAI",
-                    "azure": "Azure",
                     "api_key": "مفتاح Api",
                     "model": "النموذج",
                     "add": "اضف موجه",
@@ -280,20 +279,6 @@
                     "api_key": "مفتاح Api",
                     "title": "Gemini الاحترافية",
                     "prompt_description": "من خلال تخصيص الموجه يمكنك تخصيص سلوك Gemini Pro. $text $from $to $detect سيتم استبدالها بالنص المراد ترجمته واللغة المصدر واللغة الهدف واللغة المكتشفة."
-                },
-                "chatglm": {
-                    "model": "النموذج",
-                    "title": "chatGLM",
-                    "chatglm_turbo": "ChatGLM فائق",
-                    "prompt_description": "من خلال تخصيص الموجه يمكنك تخصيص سلوك الذكاء الاصطناعي. $text $from $to $detect سيتم استبدالها بالنص المراد ترجمته واللغة المصدر واللغة الهدف واللغة المكتشفة.",
-                    "chatglm_pro": "ChatGLM احترافي",
-                    "add": "اضف موجه",
-                    "api_key": "مفتاح Api",
-                    "chatglm_std": "ChatGLM قياسي",
-                    "chatglm_lite": "ChatGLM خفيف"
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
                 },
                 "ecdict": {
                     "title": "ECDict (متصل)"

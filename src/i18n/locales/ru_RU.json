@@ -232,7 +232,6 @@
                     "title": "OpenAI",
                     "service": "Поставщик услуг",
                     "openai": "OpenAI",
-                    "azure": "Azure",
                     "request_path": "Путь запроса",
                     "api_key": "Api Key",
                     "model": "Модель",
@@ -245,20 +244,6 @@
                 },
                 "cambridge_dict": {
                     "title": "Кембриджский словарь"
-                },
-                "chatglm": {
-                    "title": "ChatGLM",
-                    "api_key": "Api Key",
-                    "chatglm_lite": "ChatGLM Lite",
-                    "chatglm_pro": "ChatGLM Pro",
-                    "model": "Модель",
-                    "chatglm_std": "ChatGLM Std",
-                    "add": "Добавить Промт",
-                    "prompt_description": "Указав Промт, вы можете настроить поведение ИИ. $text $from $to $detect будет заменён текстом для перевода, исходным языком, целевым языком и определённым языком.",
-                    "chatglm_turbo": "ChatGLM Turbo"
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
                 },
                 "geminipro": {
                     "add": "Добавить Промт",

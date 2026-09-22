@@ -71,8 +71,6 @@ pub fn check_service_available() -> Result<(), Error> {
     let builtin_translate_list: Vec<&str> = vec![
         "bing_dict",
         "cambridge_dict",
-        "chatglm",
-        "deepseek",
         "ecdict",
         "geminipro",
         "ollama",

@@ -23,22 +23,7 @@
                     "add": "Aggiungi Prompt",
                     "prompt_description": "Personalizzando il prompt, puoi personalizzare il comportamento di OpenAI. $text $from $to $detect verrà sostituito con il testo da tradurre, la lingua di origine, la lingua di destinazione e la lingua rilevata.",
                     "title": "OpenAI",
-                    "azure": "Azure",
                     "api_key": "Chiave API"
-                },
-                "chatglm": {
-                    "title": "ChatGLM",
-                    "api_key": "Chiave Api",
-                    "chatglm_lite": "ChatGLM Lite",
-                    "chatglm_pro": "ChatGLM Pro",
-                    "model": "Modello",
-                    "chatglm_turbo": "ChatGLM Turbo",
-                    "chatglm_std": "ChatGLM Std",
-                    "add": "Aggiungi Prompt",
-                    "prompt_description": "Personalizzando il prompt, è possibile personalizzare il comportamento dell'AI. $text $from $to $detect verrà sostituito con il testo da tradurre, la lingua di origine, la lingua di destinazione e la lingua rilevata."
-                },
-                "deepseek": {
-                    "title": "DeepSeek"
                 },
                 "cambridge_dict": {
                     "title": "Dizionario di Cambridge"
