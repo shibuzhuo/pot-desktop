@@ -76,7 +76,6 @@
                 "app_font": "Fuente",
                 "server_port": "Puerto de escucha",
                 "proxy_error": "Por favor introduzca el host y el puerto",
-                "check_update": "Comprobar la actualización",
                 "app_language": "Idioma de la aplicación",
                 "transparent": "Efecto de transparencia",
                 "title": "Ajustes generales",

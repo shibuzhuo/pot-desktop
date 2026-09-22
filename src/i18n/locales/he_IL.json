@@ -44,7 +44,6 @@
         "config": {
             "general": {
                 "auto_start": "הפעלה אוטומטית",
-                "check_update": "עדכון אוטומטי",
                 "theme": {
                     "dark": "כהה",
                     "system": "מערכת",

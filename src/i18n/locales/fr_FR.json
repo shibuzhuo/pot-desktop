@@ -298,7 +298,6 @@
                 "server_port_change": "Le port d'écoute a été modifié. Veuillez relancer l'application pour que les modifications prennent effet",
                 "server_port": "Port d'écoute",
                 "proxy_error": "Veuillez compléter l'hôte et le port",
-                "check_update": "Vérifier les mises à jour",
                 "app_language": "Langue d'affichage",
                 "transparent": "Effet de transparence",
                 "title": "Paramètres généraux",
