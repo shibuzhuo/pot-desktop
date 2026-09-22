@@ -228,25 +228,6 @@
             "no_need": "Nenhuma Configuração Requerida",
             "instance_name": "Nome da configuração",
             "translate": {
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "URL de DeepLX",
-                    "auth_key": "Chave de Autorização",
-                    "type": "Tipo de Serviço",
-                    "free": "Gratuito",
-                    "api": "Chave de Autorização",
-                    "deeplx": "DeepLX"
-                },
-                "google": {
-                    "title": "Google",
-                    "custom_url": "URL personalizada"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing"
-                },
                 "openai": {
                     "title": "OpenAI",
                     "service": "Prestador de serviços",
@@ -259,67 +240,11 @@
                     "prompt_description": "Ao personalizar o Prompt, você pode personalizar o comportamento do OpenAI. $text $from $to $detect será substituído pelo texto a ser traduzido, idioma de origem, idioma de destino e idioma detectado.",
                     "add": "Adicionar Prompt"
                 },
-                "yandex": {
-                    "title": "Yandex"
-                },
-                "transmart": {
-                    "title": "TranSmart",
-                    "username": "Nome de usuário",
-                    "token": "Token"
-                },
-                "baidu": {
-                    "title": "Baidu",
-                    "appid": "ID do App",
-                    "secret": "Segredo"
-                },
-                "baidu_field": {
-                    "title": "Campo Baidu",
-                    "it": "Tecnologia da Informação",
-                    "finance": "Finanças e Economia",
-                    "machinery": "Fabricação de Máquinas",
-                    "senimed": "Biomedicina",
-                    "novel": "Literatura de Rede",
-                    "academic": "Papéis Acadêmicos",
-                    "aerospace": "Aeroespacial",
-                    "wiki": "Ciências sociais e humanas",
-                    "news": "Notícias e informações",
-                    "law": "Legislação e Regulamentação",
-                    "contract": "Contrato"
-                },
-                "alibaba": {
-                    "title": "Alibaba",
-                    "accesskey_id": "ID da Chave de Acesso",
-                    "accesskey_secret": "Segredo da Chave de Acesso"
-                },
-                "tencent": {
-                    "title": "Tencent",
-                    "secret_id": "ID Secreto",
-                    "secret_key": "Chave Secreta"
-                },
-                "volcengine": {
-                    "title": "VolcEngine",
-                    "appid": "ID do App",
-                    "secret": "Segredo"
-                },
-                "niutrans": {
-                    "title": "NiuTrans",
-                    "https": "Usando Https",
-                    "apikey": "Chave API"
-                },
-                "youdao": {
-                    "title": "Youdao",
-                    "appkey": "ID do App",
-                    "key": "Chave"
-                },
                 "bing_dict": {
                     "title": "Bing Dicionário"
                 },
                 "cambridge_dict": {
                     "title": "Cambridge Dicionário"
-                },
-                "caiyun": {
-                    "title": "Caiyun",
-                    "token": "Token"
                 },
                 "chatglm": {
                     "title": "ChatGLM",

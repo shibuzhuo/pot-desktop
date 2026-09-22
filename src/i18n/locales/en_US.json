@@ -228,25 +228,6 @@
             "no_need": "No configuration required",
             "instance_name": "Configuration Name",
             "translate": {
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "DeepLX URL",
-                    "auth_key": "Auth Key",
-                    "type": "Service Type",
-                    "free": "Free",
-                    "api": "Auth Key",
-                    "deeplx": "DeepLX"
-                },
-                "google": {
-                    "title": "Google",
-                    "custom_url": "Custom URL"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing"
-                },
                 "ollama": {
                     "title": "Ollama",
                     "install_ollama": "Unable to connect to local ollama, please download, install and start ollama first. If you use ollama that is not on this machine, please change the request address.",
@@ -292,70 +273,14 @@
                     "prompt_description": "By customizing the Prompt, you can customize the behavior of AI. $text $from $to $detect will be replaced with the text to be translated, source language, target language and detected language.",
                     "add": "Add Prompt"
                 },
-                "yandex": {
-                    "title": "Yandex"
-                },
                 "ecdict": {
                     "title": "ECDict(Online)"
-                },
-                "transmart": {
-                    "title": "TranSmart",
-                    "username": "Username",
-                    "token": "Token"
-                },
-                "baidu": {
-                    "title": "Baidu",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "baidu_field": {
-                    "title": "Baidu Field",
-                    "it": "Information Technology",
-                    "finance": "Finance and Economics",
-                    "machinery": "Machinery Manufacturing",
-                    "senimed": "Biomedicine",
-                    "novel": "Network literature",
-                    "academic": "Academic Paper",
-                    "aerospace": "Aerospace",
-                    "wiki": "Humanities and Social Sciences",
-                    "news": "News and Information",
-                    "law": "Laws and Regulations",
-                    "contract": "Contract"
-                },
-                "alibaba": {
-                    "title": "Alibaba",
-                    "accesskey_id": "AccessKey ID",
-                    "accesskey_secret": "AccessKey Secret"
-                },
-                "tencent": {
-                    "title": "Tencent",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine": {
-                    "title": "VolcEngine",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "niutrans": {
-                    "title": "NiuTrans",
-                    "https": "Use Https",
-                    "apikey": "API Key"
-                },
-                "youdao": {
-                    "title": "Youdao",
-                    "appkey": "App ID",
-                    "key": "Key"
                 },
                 "bing_dict": {
                     "title": "Bing Dictionary"
                 },
                 "cambridge_dict": {
                     "title": "Cambridge Dictionary"
-                },
-                "caiyun": {
-                    "title": "Caiyun",
-                    "token": "Token"
                 }
             },
             "recognize": {

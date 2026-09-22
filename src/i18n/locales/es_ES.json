@@ -224,57 +224,11 @@
                     "chatglm_lite": "ChatGLM Lite",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
-                "transmart": {
-                    "username": "Nombre de usuario",
-                    "token": "Token"
-                },
-                "baidu_field": {
-                    "senimed": "Biomedicina"
-                },
-                "alibaba": {
-                    "title": "Alibaba"
-                },
-                "volcengine": {
-                    "title": "VolcEngine"
-                },
-                "niutrans": {
-                    "title": "NiuTrans"
-                },
-                "youdao": {
-                    "title": "Youdao"
-                },
                 "bing_dict": {
                     "title": "Diccionario Bing"
                 },
-                "deepl": {
-                    "deeplx": "DeepLX",
-                    "free": "Gratis",
-                    "title": "DeepL"
-                },
-                "google": {
-                    "title": "Google"
-                },
-                "caiyun": {
-                    "title": "Caiyun",
-                    "token": "Token"
-                },
-                "yandex": {
-                    "title": "Yandex"
-                },
-                "baidu": {
-                    "title": "Baidu"
-                },
                 "cambridge_dict": {
                     "title": "Diccionario Cambridge"
-                },
-                "tencent": {
-                    "title": "Tencent"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing"
                 }
             },
             "recognize": {

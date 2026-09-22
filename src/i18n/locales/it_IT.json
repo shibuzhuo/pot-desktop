@@ -14,20 +14,6 @@
             "no_need": "Nessuna configurazione richiesta",
             "instance_name": "Nome della configurazione",
             "translate": {
-                "youdao": {
-                    "appkey": "ID app",
-                    "key": "Chiave",
-                    "title": "Youdao"
-                },
-                "deepl": {
-                    "free": "Gratuito",
-                    "deeplx": "DeepLX",
-                    "type": "Tipo di servizio",
-                    "title": "DeepL",
-                    "api": "Chiave d'autenticazione",
-                    "auth_key": "Chiave d'autenticazione",
-                    "custom_url": "URL DeepLX"
-                },
                 "openai": {
                     "openai": "OpenAI",
                     "request_path": "Percorso richiesto",
@@ -40,11 +26,6 @@
                     "azure": "Azure",
                     "api_key": "Chiave API"
                 },
-                "alibaba": {
-                    "accesskey_id": "ID chiave di accesso",
-                    "accesskey_secret": "Accesso alla chiave segreta",
-                    "title": "Alibaba"
-                },
                 "chatglm": {
                     "title": "ChatGLM",
                     "api_key": "Chiave Api",
@@ -56,66 +37,11 @@
                     "add": "Aggiungi Prompt",
                     "prompt_description": "Personalizzando il prompt, è possibile personalizzare il comportamento dell'AI. $text $from $to $detect verrà sostituito con il testo da tradurre, la lingua di origine, la lingua di destinazione e la lingua rilevata."
                 },
-                "transmart": {
-                    "username": "Nome Utente",
-                    "title": "TranSmart",
-                    "token": "Token"
-                },
-                "caiyun": {
-                    "token": "Token",
-                    "title": "Caiyun"
-                },
-                "baidu_field": {
-                    "academic": "Carta accademica",
-                    "law": "Diritto e regolamenti",
-                    "aerospace": "Aerospaziale",
-                    "novel": "Letteratura in rete",
-                    "senimed": "Biomedicina",
-                    "contract": "Contratto",
-                    "finance": "Finanza ed Economia",
-                    "wiki": "Scienze umane e sociali",
-                    "it": "Tecnologia dell'informazione",
-                    "news": "Notizie e informazioni",
-                    "machinery": "Produzione di macchinari",
-                    "title": "Campo Baidu"
-                },
                 "cambridge_dict": {
                     "title": "Dizionario di Cambridge"
                 },
-                "baidu": {
-                    "appid": "ID app",
-                    "title": "Baidu",
-                    "secret": "Segreto"
-                },
-                "niutrans": {
-                    "https": "Usa Https",
-                    "title": "NiuTrans",
-                    "apikey": "Chiave API"
-                },
-                "tencent": {
-                    "secret_key": "Chiave segreta",
-                    "title": "Tencent",
-                    "secret_id": "ID segreto"
-                },
-                "google": {
-                    "title": "Google",
-                    "custom_url": "URL personalizzato"
-                },
-                "yandex": {
-                    "title": "Yandex"
-                },
                 "bing_dict": {
                     "title": "Dizionario Bing"
-                },
-                "volcengine": {
-                    "appid": "ID app",
-                    "secret": "Segreto"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing"
                 }
             },
             "recognize": {

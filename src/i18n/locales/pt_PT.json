@@ -14,20 +14,6 @@
             "no_need": "Nenhuma Configuração Requerida",
             "instance_name": "Nome da configuração",
             "translate": {
-                "youdao": {
-                    "appkey": "ID do App",
-                    "key": "Chave",
-                    "title": "Youdao"
-                },
-                "deepl": {
-                    "free": "Gratuito",
-                    "deeplx": "DeepLX",
-                    "type": "Tipo de Serviço",
-                    "title": "DeepL",
-                    "api": "Chave de Autorização",
-                    "auth_key": "Chave de Autorização",
-                    "custom_url": "URL de DeepLX"
-                },
                 "openai": {
                     "openai": "OpenAI",
                     "request_path": "Caminho do Pedido",
@@ -51,69 +37,11 @@
                     "add": "Adicionar Prompt",
                     "prompt_description": "Ao personalizar o Prompt, pode personalizar o comportamento da IA. $text $from $to $detet será substituído pelo texto a ser traduzido, o idioma de origem, o idioma de destino e o idioma detetado."
                 },
-                "transmart": {
-                    "username": "Nome de Utilizador",
-                    "title": "TranSmart",
-                    "token": "Token"
-                },
-                "caiyun": {
-                    "token": "Token"
-                },
-                "baidu_field": {
-                    "academic": "Papéis Acadêmicos",
-                    "law": "Legislação e Regulamentação",
-                    "aerospace": "Aeroespacial",
-                    "novel": "Literatura de Rede",
-                    "senimed": "Biomedicina",
-                    "contract": "Contrato",
-                    "finance": "Finanças e Economia",
-                    "wiki": "Ciências sociais e humanas",
-                    "it": "Tecnologia da Informação",
-                    "news": "Notícias e informações",
-                    "machinery": "Fabricação de Máquinas",
-                    "title": "Campo Baidu"
-                },
                 "cambridge_dict": {
                     "title": "Cambridge Dicionário"
                 },
-                "baidu": {
-                    "appid": "ID do App",
-                    "title": "Baidu",
-                    "secret": "Segredo"
-                },
-                "niutrans": {
-                    "https": "Usar Https",
-                    "title": "NiuTrans",
-                    "apikey": "Chave de API"
-                },
-                "tencent": {
-                    "secret_key": "Chave Secreta",
-                    "title": "Tencent",
-                    "secret_id": "ID Secreto"
-                },
-                "volcengine": {
-                    "title": "VolcEngine",
-                    "appid": "ID do App",
-                    "secret": "Segredo"
-                },
-                "google": {
-                    "title": "Google",
-                    "custom_url": "URL personalizada"
-                },
-                "yandex": {
-                    "title": "Yandex"
-                },
                 "bing_dict": {
                     "title": "Bing Dicionário"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing"
-                },
-                "alibaba": {
-                    "title": "Alibaba"
                 },
                 "geminipro": {
                     "api_key": "Chave de Api",

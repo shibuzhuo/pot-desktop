@@ -247,25 +247,6 @@
             "help": "إرشاد التكوين",
             "no_need": "لا يتطلب أي تكوين",
             "translate": {
-                "lingva": {
-                    "title": "lingva"
-                },
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "عنوان DeepLX",
-                    "auth_key": "مفتاح المصادقة",
-                    "type": "نوع الخدمة",
-                    "free": "محاني",
-                    "api": "مفتاح المصادقة",
-                    "deeplx": "DeepLX"
-                },
-                "google": {
-                    "title": "Google",
-                    "custom_url": "عنوان مخصص"
-                },
-                "bing": {
-                    "title": "Bing"
-                },
                 "ollama": {
                     "title": "ollama",
                     "install_ollama": "غير قادر على الاتصال بـ ollama المحلي، يرجى تنزيل ollama وتثبيته وبدء تشغيله أولاً. إذا كنت تستخدم ollama غير موجود على هذا الجهاز، يرجى تغيير عنوان الطلب.",
@@ -311,41 +292,8 @@
                     "chatglm_std": "ChatGLM قياسي",
                     "chatglm_lite": "ChatGLM خفيف"
                 },
-                "yandex": {
-                    "title": "yandex"
-                },
                 "ecdict": {
                     "title": "ECDict (متصل)"
-                },
-                "transmart": {
-                    "username": "اسم المستخدم"
-                },
-                "alibaba": {
-                    "accesskey_secret": "مفتاح الوصول السري",
-                    "title": "علي بابا",
-                    "accesskey_id": "معرّف مفتاح الوصول"
-                },
-                "niutrans": {
-                    "apikey": "مفتاح API"
-                },
-                "baidu": {
-                    "secret": "السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "volcengine": {
-                    "secret": "السري",
-                    "appid": "معرّف التطبيق"
-                },
-                "tencent": {
-                    "secret_id": "المعرف السري",
-                    "secret_key": "المفتاح السري"
-                },
-                "youdao": {
-                    "appkey": "معرّف التطبيق",
-                    "key": "مفتاح"
-                },
-                "baidu_field": {
-                    "it": "تقنية المعلومات"
                 }
             },
             "instance_name": "اسم التكوين",

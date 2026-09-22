@@ -114,17 +114,7 @@
             "copy_img": "画像をコピー"
         },
         "services": {
-            "translate": {
-                "caiyun": {
-                    "token": "トークン"
-                },
-                "transmart": {
-                    "token": "トークン"
-                },
-                "deepl": {
-                    "type": "サービスの種類"
-                }
-            },
+            "translate": {},
             "recognize": {
                 "volcengine_ocr": {
                     "appid": "アプリID"

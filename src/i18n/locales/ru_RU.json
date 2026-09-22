@@ -228,25 +228,6 @@
             "no_need": "Настройка не требуется",
             "instance_name": "Имя конфигурации",
             "translate": {
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "DeepLX URL",
-                    "auth_key": "Auth Key",
-                    "type": "Тип сервиса",
-                    "free": "Бесплатный",
-                    "api": "Auth Key",
-                    "deeplx": "DeepLX"
-                },
-                "google": {
-                    "title": "Google",
-                    "custom_url": "Пользовательский адрес"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing"
-                },
                 "openai": {
                     "title": "OpenAI",
                     "service": "Поставщик услуг",
@@ -259,67 +240,11 @@
                     "prompt_description": "Указав Промт, вы можете настроить поведение OpenAI. $text $from $to $detect будет заменён текстом для перевода, исходным языком, целевым языком и определённым языком.",
                     "add": "Добавить Промт"
                 },
-                "yandex": {
-                    "title": "Яндекс"
-                },
-                "transmart": {
-                    "title": "TranSmart",
-                    "username": "Имя пользователя",
-                    "token": "Токен"
-                },
-                "baidu": {
-                    "title": "Baidu",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "baidu_field": {
-                    "title": "Baidu Field",
-                    "it": "Информационные технологии",
-                    "finance": "Финансы и экономика",
-                    "machinery": "Машиностроение",
-                    "senimed": "Биомедицина",
-                    "novel": "Сетевая литература",
-                    "academic": "Научная статья",
-                    "aerospace": "Аэрокосмос",
-                    "wiki": "Гуманитарные и социальные науки",
-                    "news": "Новости и информация",
-                    "law": "Законы и нормативные акты",
-                    "contract": "Контракт"
-                },
-                "alibaba": {
-                    "title": "Alibaba",
-                    "accesskey_id": "AccessKey ID",
-                    "accesskey_secret": "AccessKey Secret"
-                },
-                "tencent": {
-                    "title": "Tencent",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine": {
-                    "title": "VolcEngine",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "niutrans": {
-                    "title": "NiuTrans",
-                    "https": "Исп. Https",
-                    "apikey": "API Key"
-                },
-                "youdao": {
-                    "title": "Youdao",
-                    "appkey": "App ID",
-                    "key": "Key"
-                },
                 "bing_dict": {
                     "title": "Bing Dictionary"
                 },
                 "cambridge_dict": {
                     "title": "Кембриджский словарь"
-                },
-                "caiyun": {
-                    "title": "Caiyun",
-                    "token": "Токен"
                 },
                 "chatglm": {
                     "title": "ChatGLM",

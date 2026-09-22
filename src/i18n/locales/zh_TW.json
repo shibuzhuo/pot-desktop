@@ -227,25 +227,6 @@
             "no_need": "無需設定",
             "instance_name": "配置名稱",
             "translate": {
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "DeepLX 網址",
-                    "auth_key": "授權金鑰",
-                    "type": "服務類型",
-                    "free": "免費版",
-                    "api": "授權金鑰",
-                    "deeplx": "DeepLX"
-                },
-                "google": {
-                    "title": "Google 翻譯",
-                    "custom_url": "自訂網址"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing 翻譯"
-                },
                 "openai": {
                     "title": "OpenAI",
                     "service": "服務提供商",
@@ -269,67 +250,11 @@
                     "add": "新增 Prompt",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
-                "yandex": {
-                    "title": "Yandex"
-                },
-                "transmart": {
-                    "title": "TranSmart",
-                    "username": "使用者名稱",
-                    "token": "Token"
-                },
-                "baidu": {
-                    "title": "百度翻譯",
-                    "appid": "應用程式 ID",
-                    "secret": "Secret"
-                },
-                "baidu_field": {
-                    "title": "百度領域翻譯",
-                    "it": "資訊科技",
-                    "finance": "金融財經",
-                    "machinery": "機械製造",
-                    "senimed": "生物醫藥",
-                    "novel": "網路文學",
-                    "academic": "學術論文",
-                    "aerospace": "航空航天",
-                    "wiki": "人文社科",
-                    "news": "新聞資訊",
-                    "law": "法律法規",
-                    "contract": "合約"
-                },
-                "alibaba": {
-                    "title": "阿里翻譯",
-                    "accesskey_id": "AccessKey ID",
-                    "accesskey_secret": "AccessKey Secret"
-                },
-                "tencent": {
-                    "title": "騰訊翻譯",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine": {
-                    "title": "火山翻譯",
-                    "appid": "應用程式 ID",
-                    "secret": "Secret"
-                },
-                "niutrans": {
-                    "title": "小牛翻譯",
-                    "https": "使用 Https",
-                    "apikey": "API Key"
-                },
-                "youdao": {
-                    "title": "有道翻譯",
-                    "appkey": "應用程式 ID",
-                    "key": "Key"
-                },
                 "bing_dict": {
                     "title": "必應詞典"
                 },
                 "cambridge_dict": {
                     "title": "劍橋詞典"
-                },
-                "caiyun": {
-                    "title": "彩雲小譯",
-                    "token": "Token"
                 },
                 "ollama": {
                     "add": "新增 Prompt",

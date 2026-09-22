@@ -227,25 +227,6 @@
             "no_need": "Keine Konfiguration erforderlich",
             "instance_name": "Konfigurationsname",
             "translate": {
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "DeepLX URL",
-                    "auth_key": "API-Schlüssel",
-                    "type": "Diensttyp",
-                    "free": "Integrierter kostenloser Dienst",
-                    "api": "Auth Key",
-                    "deeplx": "DeepLX"
-                },
-                "google": {
-                    "title": "Google Übersetzung",
-                    "custom_url": "Benutzerdefinierte URL"
-                },
-                "lingva": {
-                    "title": "Lingva"
-                },
-                "bing": {
-                    "title": "Bing Übersetzung"
-                },
                 "openai": {
                     "title": "OpenAI",
                     "service": "Dienstanbieter",
@@ -276,67 +257,11 @@
                     "prompt_description": "Passen Sie das Verhalten von KI durch benutzerdefinierte Prompts an. $text $from $to $detect werden durch den zu übersetzenden Text, die Ausgangs- und Zielsprache sowie die erkannte Sprache ersetzt.",
                     "add": "Prompt hinzufügen"
                 },
-                "yandex": {
-                    "title": "Yandex"
-                },
-                "transmart": {
-                    "title": "TranSmart",
-                    "username": "Benutzername",
-                    "token": "Token"
-                },
-                "baidu": {
-                    "title": "Baidu Übersetzung",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "baidu_field": {
-                    "title": "Baidu Fachübersetzung",
-                    "it": "Informationstechnologie",
-                    "finance": "Finanzwesen",
-                    "machinery": "Maschinenbau",
-                    "senimed": "Biomedizin",
-                    "novel": "Online-Literatur",
-                    "academic": "Wissenschaftliche Arbeit",
-                    "aerospace": "Luft- und Raumfahrt",
-                    "wiki": "Geisteswissenschaften",
-                    "news": "Nachrichten",
-                    "law": "Recht",
-                    "contract": "Vertrag"
-                },
-                "alibaba": {
-                    "title": "Alibaba Übersetzung",
-                    "accesskey_id": "AccessKey ID",
-                    "accesskey_secret": "AccessKey Secret"
-                },
-                "tencent": {
-                    "title": "Tencent Übersetzung",
-                    "secret_id": "Secret ID",
-                    "secret_key": "Secret Key"
-                },
-                "volcengine": {
-                    "title": "VolcEngine",
-                    "appid": "App ID",
-                    "secret": "Secret"
-                },
-                "niutrans": {
-                    "title": "NiuTrans",
-                    "https": "Https verwenden",
-                    "apikey": "API-Schlüssel"
-                },
-                "youdao": {
-                    "title": "Youdao Übersetzung",
-                    "appkey": "App ID",
-                    "key": "Key"
-                },
                 "bing_dict": {
                     "title": "Bing Wörterbuch"
                 },
                 "cambridge_dict": {
                     "title": "Cambridge Wörterbuch"
-                },
-                "caiyun": {
-                    "title": "Caiyun",
-                    "token": "Token"
                 }
             },
             "recognize": {
