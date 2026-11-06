@@ -205,7 +205,6 @@
                 "title": "Sobre a Aplicação",
                 "qq_group": "Grupo QQ",
                 "website": "Website",
-                "check_update": "Procurar Atualização",
                 "telegram": "Telegram",
                 "feedback": "Realimentação",
                 "label": "Sobre",
@@ -226,16 +225,6 @@
             "translate_back": "Tradução de volta ao original",
             "translate": "Traduzir",
             "copy": "Copiar"
-        },
-        "updater": {
-            "installed": "Instalação concluída, reinicie a aplicação para que as alterações entrem em vigor",
-            "downloading": "A descarregar…",
-            "update": "Atualizar",
-            "progress": "Progresso da Descarga",
-            "latest": "## A versão mais recente está instalada",
-            "cancel": "Cancelar",
-            "title": "Procurar Atualização",
-            "installing": "A Instalar…"
         },
         "recognize": {
             "translate": "Traduzir",

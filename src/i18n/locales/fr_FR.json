@@ -226,7 +226,6 @@
                 "title": "À propos de l'application",
                 "qq_group": "Groupe QQ",
                 "website": "Site Web",
-                "check_update": "Vérifier les mises à jour",
                 "telegram": "Telegram",
                 "feedback": "Commentaires",
                 "label": "À propos",
@@ -247,16 +246,6 @@
             "translate_back": "Revenir à la traduction d'origine",
             "translate": "Traduire",
             "copy": "Copier"
-        },
-        "updater": {
-            "installed": "Installation terminée. Relancez l'application pour que les modifications prennent effet",
-            "downloading": "Téléchargement…",
-            "update": "Mettre à jour",
-            "progress": "Progression du téléchargement",
-            "latest": "## La dernière version est installée",
-            "cancel": "Annuler",
-            "title": "Vérifier les mises à jour",
-            "installing": "Installation…"
         },
         "recognize": {
             "translate": "Traduire",

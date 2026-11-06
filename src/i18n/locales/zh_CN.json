@@ -172,23 +172,12 @@
                 "issue": "议题",
                 "email": "邮件",
                 "community": "社区交流",
-                "check_update": "检查更新",
                 "view_config": "查看配置文件",
                 "qq_channel": "QQ 频道",
                 "qq_group": "QQ 群",
                 "telegram": "Telegram",
                 "discussion": "Github 讨论"
             }
-        },
-        "updater": {
-            "title": "检查更新",
-            "latest": "## 已经是最新版本",
-            "progress": "下载进度",
-            "update": "更新",
-            "downloading": "下载中…",
-            "installing": "安装中…",
-            "cancel": "取消",
-            "installed": "安装完成，重启应用生效"
         },
         "services": {
             "help": "配置指南",

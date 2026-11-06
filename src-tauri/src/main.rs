@@ -29,7 +29,6 @@ use tauri::Manager;
 use tauri_plugin_log::LogTarget;
 use tray::*;
 use window::config_window;
-use window::updater_window;
 
 // Global AppHandle
 pub static APP: OnceCell<tauri::AppHandle> = OnceCell::new();
@@ -130,7 +129,6 @@ fn main() {
             open_devtools,
             register_shortcut_by_frontend,
             update_tray,
-            updater_window,
             screenshot,
             lang_detect,
             install_plugin,

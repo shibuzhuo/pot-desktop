@@ -198,7 +198,6 @@
                 "title": "Informazioni sull'applicazione",
                 "qq_group": "Gruppo QQ",
                 "website": "Sito web",
-                "check_update": "Controlla aggiornamento",
                 "telegram": "Telegram",
                 "feedback": "Feedback",
                 "label": "Informazioni",
@@ -219,15 +218,6 @@
             "translate_back": "Traduzione riportata all'originale",
             "translate": "Traduci",
             "copy": "Copia"
-        },
-        "updater": {
-            "installed": "Installazione completata, riavviare l'applicazione affinché le modifiche abbiano effetto",
-            "downloading": "Scaricamento in corso…",
-            "update": "Aggiorna",
-            "latest": "# L'ultima versione è installata",
-            "cancel": "Annulla",
-            "title": "Controlla aggiornamento",
-            "installing": "Installazione in corso…"
         },
         "recognize": {
             "translate": "Traduci",

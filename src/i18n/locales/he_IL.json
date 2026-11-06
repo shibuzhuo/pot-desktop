@@ -155,7 +155,6 @@
                 "email": "דוא\"ל",
                 "title": "אודות התוכנה",
                 "community": "קהילה",
-                "check_update": "חפש עדכונים",
                 "view_config": "הצג תצורה",
                 "telegram": "Telegram",
                 "discussion": "דיון Github",
@@ -175,16 +174,6 @@
                 "hide_window": "הסתר חלון זיהוי",
                 "close_on_blur": "סגור את החלון כאשר המיקוד אינו פעיל"
             }
-        },
-        "updater": {
-            "installed": "ההתקנה הושלמה, הפעל מחדש את האפליקציה כדי שהשינויים ייכנסו לתוקף",
-            "title": "חפש עדכונים",
-            "latest": "## הגרסה האחרונה מותקנת",
-            "progress": "התקדמות הורדה",
-            "downloading": "מוריד…",
-            "update": "עדכן",
-            "installing": "מתקין…",
-            "cancel": "ביטול"
         },
         "services": {
             "help": "מדריך תצורה",
