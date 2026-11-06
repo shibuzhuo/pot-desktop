@@ -4,6 +4,8 @@
 
 > 🌈 一个跨平台的划词翻译软件 ([QQ 频道](https://pd.qq.com/s/akns94e1r))
 
+> 🛠️ **本仓库为个人定制版**:基于 [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) v3.0.7 修改,遵循 GPL-3.0。与原版的差异详见下方[定制说明](#定制说明),感谢原作者的开源贡献。
+
 ![License](https://img.shields.io/github/license/pot-app/pot-desktop.svg)
 ![Tauri](https://img.shields.io/badge/Tauri-1.6.8-blue?logo=tauri)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white)
@@ -39,6 +41,27 @@
 -   [国际化](#国际化weblate)
 -   [贡献者](#贡献者)
 -   [感谢](#感谢)
+
+</div>
+
+## 定制说明
+
+本仓库基于 [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) v3.0.7 修改,仅供个人使用,遵循上游 GPL-3.0 许可证。相对原版的主要改动:
+
+### 功能增改
+
+-   **划词取词优化**:剪贴板降级路径改为轮询剪贴板序列号(10ms 间隔,最长 500ms),替代原固定 100ms 等待,快应用更快返回、慢应用不再轻易失败(本地维护的 `selection` crate)
+-   **新增 Win11 OneOCR 识别服务**:调用 Windows 11 截图工具内置的 OneOCR 引擎(基于 [oneocr-rs](https://github.com/wangfu91/oneocr-rs),离线运行)。需手动从 Snipping Tool 安装目录提取 `oneocr.dll`、`oneocr.onemodel`、`onnxruntime.dll` 三个文件放到 pot.exe 同目录
+-   **翻译服务合并**:`openai` 服务统一支持 OpenAI / DeepSeek / 智谱 AI 三家供应商(均为 OpenAI 协议,配置供应商/请求地址/模型/KEY 即可),移除 Azure 选项
+-   **语种检测仅保留本地引擎**(lingua,离线),划词时不再向任何第三方发送检测请求
+
+### 功能删除
+
+-   启动时自动检查更新(保留托盘菜单与关于页的手动检查)
+-   内置翻译服务:谷歌、必应、DeepL、Yandex、Lingva、阿里、百度、腾讯交互、火山、彩云、小牛、有道等,仅保留 OpenAI(合并版)、Gemini Pro、Ollama、剑桥词典
+-   除 OneOCR 外的全部内置识别服务(系统 OCR、Tesseract、百度/腾讯/火山/讯飞系、二维码等)
+-   备份设置(WebDAV / 阿里云盘 / 本地)、历史记录(SQL)、语音合成(TTS)、必应词典与 ECDict 服务
+-   日志不再写入文件(仅开发模式控制台输出)
 
 <div align="center">
 
