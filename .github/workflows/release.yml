@@ -1,0 +1,56 @@
+name: Release
+
+on:
+    push:
+        tags:
+            - 'v*'
+
+permissions:
+    contents: write
+
+jobs:
+    build-windows:
+        runs-on: windows-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 22
+                  cache: pnpm
+
+            - name: Setup Rust
+              uses: dtolnay/rust-toolchain@stable
+              with:
+                  targets: x86_64-pc-windows-msvc
+
+            - name: Rust Cache
+              uses: swatinem/rust-cache@v2
+              with:
+                  workspaces: src-tauri
+
+            - name: Install Frontend Dependencies
+              run: pnpm install --frozen-lockfile
+
+            - name: Build and Create Release
+              uses: tauri-apps/tauri-action@v0
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  tagName: ${{ github.ref_name }}
+                  releaseName: ${{ github.ref_name }}
+                  releaseBody: |
+                      基于 pot-app/pot-desktop v3.0.7 的个人定制版,改动详见 [定制说明](https://github.com/shibuzhuo/pot-desktop#定制说明)。
+
+                      **OneOCR 使用提示**:安装后需从 Win11 截图工具(Snipping Tool)安装目录复制
+                      `oneocr.dll`、`oneocr.onemodel`、`onnxruntime.dll`
+                      三个文件到 pot.exe 同目录(安装目录默认为 `C:\Program Files\pot`,复制需管理员权限)。
+                  releaseDraft: false
+                  prerelease: false
